@@ -4,18 +4,58 @@
    <meta charset="utf-8">
    <title>¿Cómo se escribe?</title>
    <script type= "text/javascript" src="js/phaser.min.js"></script>
-   <script src= "js/boot.js"> </script>
-   <script src= "js/load.js"> </script>
-   <script src= "js/menu.js"> </script>
-   <script src= "js/play.js"> </script>
-   <script src= "js/win.js"> </script>
-   <script src= "js/lose.js"> </script>
-   <script src= "js/game.js"> </script>
    <link href="css/css.css" rel="stylesheet" type="text/css" />
    <link rel="icon" type="image/png" href="assets/Misc/HVGamesIco.ico" />
 
  </head>
  <body>
    <center> <div id="gameDiv"> </div> </center>
+   <script type="text/javascript">
+
+   var game= new Phaser.Game(1000, 515, Phaser.AUTO, 'gameDiv',{preload:preload, create: create, update: update});
+
+    function preload(){
+      game.load.image('loading', 'assets/Misc/load.png');
+      game.load.image('menu', 'assets/Misc/menu.png');
+      game.load.spritesheet('playbt', 'assets/Misc/playbt.png', 200,60);
+
+    }
+
+    var button;
+
+    function create(){
+     game.add.sprite(0,0, 'loading');
+     game.add.sprite(0,0,'menu');
+     button = game.add.button(game.world.centerX - 100, 400, 'playbt', actionOnClick, this, 1, 0, 2);
+     button.onInputOver.add(over, this);
+     button.onInputOut.add(out, this);
+     button.onInputUp.add(up, this);
+
+    }
+
+    function up() {
+    console.log('button up', arguments);
+    }
+
+    function over() {
+    console.log('button over');
+    }
+
+    function out() {
+    console.log('button out');
+    }
+
+    function actionOnClick () {
+    }
+
+
+    function update(){
+
+    }
+
+</script>
+
+
+
  </body>
 </html>
