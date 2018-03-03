@@ -18,14 +18,18 @@
       game.load.image('loading', 'assets/Misc/load.png');
       game.load.image('menu', 'assets/Misc/menu.png');
       game.load.spritesheet('playbt', 'assets/Misc/playbt.png', 200,60);
+      game.load.image('play', 'assets/Misc/play.png');
+      game.load.sprite('nube', 'assets/Misc/nube.png');
 
     }
 
     var button;
+    var menu;
+    var load;
 
     function create(){
-     game.add.sprite(0,0, 'loading');
-     game.add.sprite(0,0,'menu');
+     load = game.add.image(0,0, 'loading');
+     menu = game.add.sprite(0,0,'menu');
      button = game.add.button(game.world.centerX - 100, 400, 'playbt', actionOnClick, this, 1, 0, 2);
      button.onInputOver.add(over, this);
      button.onInputOut.add(out, this);
@@ -46,12 +50,18 @@
     }
 
     function actionOnClick () {
+      game.add.sprite(0,0,'play');
+      load.kill();
+      menu.kill();
+      button.kill();
+
     }
 
 
     function update(){
 
     }
+
 
 </script>
 
