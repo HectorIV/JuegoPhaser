@@ -19,7 +19,7 @@
       game.load.image('menu', 'assets/Misc/menu.png');
       game.load.spritesheet('playbt', 'assets/Misc/playbt.png', 200,60);
       game.load.image('play', 'assets/Misc/play.png');
-      game.load.sprite('nube', 'assets/Misc/nube.png');
+      game.load.spritesheet('nube', 'assets/Misc/nube.png');
 
     }
 
@@ -50,10 +50,17 @@
     }
 
     function actionOnClick () {
-      game.add.sprite(0,0,'play');
+
       load.kill();
       menu.kill();
       button.kill();
+
+      /*Se crea la pantalla del juego*/
+      game.add.sprite(0,0,'play');
+      game.add.sprite(100, 200, 'nube');
+      game.add.sprite(game.world.centerX - 105, 100, 'nube');
+      game.add.sprite(705, 200, 'nube');
+
 
     }
 
