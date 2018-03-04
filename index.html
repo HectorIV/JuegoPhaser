@@ -30,6 +30,38 @@
     var acierto;
     var error1;
     var error2;
+    var preguntasNubes = [
+      [ 'Pregunta1'],
+      [ 'Pregunta2' ],
+      [ 'Pregunta3' ],
+      [ 'Pregunta4'],
+      [ 'Pregunta5'],
+    ];
+
+    var respuestaCN = [
+     [ 'Respuesta1'],
+     [ 'Respuesta2' ],
+     [ 'Respuesta3' ],
+     [ 'Respuesta4'],
+     [ 'Respuesta5'],
+    ];
+
+    var respuestaIN1 = [
+     [ 'Incorrecto1'],
+     [ 'Incorrecto2' ],
+     [ 'Incorrecto3' ],
+     [ 'Incorrecto4'],
+     [ 'Incorrecto5'],
+    ];
+
+    var respuestaIN2 = [
+     [ 'Incorrecto1'],
+     [ 'Incorrecto2' ],
+     [ 'Incorrecto3' ],
+     [ 'Incorrecto4'],
+     [ 'Incorrecto5'],
+    ];
+
 
     function create(){
      load = game.add.image(0,0, 'loading');
@@ -65,12 +97,18 @@
       ale=game.rnd.integerInRange(0, 2);
       game.add.text(16,16,'Ale: '+ale,{fontsize:'32px',fill:'#000'});
 
+      game.add.text(16,450,'*'+preguntasNubes[0],{fontsize:'32px',fill:'#000'});
+
       switch (ale) {
         case 0:
+
         acierto = game.add.button(100, 200, 'nube');
         error1 = game.add.button(game.world.centerX - 105, 100, 'nube');
         error2 = game.add.button(705, 200, 'nube');
 
+        game.add.text(120,240,''+respuestaCN[0],{fontsize:'32px',fill:'#000'});
+        game.add.text(game.world.centerX - 85, 140,''+respuestaIN1[0],{fontsize:'32px',fill:'#000'});
+        game.add.text(725,240,''+respuestaIN2[0],{fontsize:'32px',fill:'#000'});
 
         error1.onInputUp.add(Error1N, this);
         error2.onInputUp.add(Error1N, this);
@@ -84,6 +122,10 @@
        acierto = game.add.button(game.world.centerX - 105, 100, 'nube');
        error2 = game.add.button(705, 200, 'nube');
 
+       game.add.text(120,240,''+respuestaIN1[0],{fontsize:'32px',fill:'#000'});
+       game.add.text(game.world.centerX - 85, 140,''+respuestaCN[0],{fontsize:'32px',fill:'#000'});
+       game.add.text(725,240,''+respuestaIN2[0],{fontsize:'32px',fill:'#000'});
+
        error1.onInputUp.add(Error1N, this);
        error2.onInputUp.add(Error1N, this);
        acierto.onInputUp.add(CorrectoN, this);
@@ -95,6 +137,10 @@
        error2 = game.add.button(100, 200, 'nube');
        error1 = game.add.button(game.world.centerX - 105, 100, 'nube');
        acierto = game.add.button(705, 200, 'nube');
+
+       game.add.text(120,240,''+respuestaIN2[0],{fontsize:'32px',fill:'#000'});
+       game.add.text(game.world.centerX - 85, 140,''+respuestaIN1[0],{fontsize:'32px',fill:'#000'});
+       game.add.text(725,240,''+respuestaCN[0],{fontsize:'32px',fill:'#000'});
 
        error1.onInputUp.add(Error1N, this);
        error2.onInputUp.add(Error1N, this);
