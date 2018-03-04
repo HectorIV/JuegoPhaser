@@ -20,6 +20,7 @@
       game.load.spritesheet('playbt', 'assets/Misc/playbt.png', 200,60);
       game.load.image('play', 'assets/Misc/play.png');
       game.load.spritesheet('nube', 'assets/Misc/nube.png');
+      game.load.image('cuadropregunta', 'assets/Misc/cuadropregunta.png');
 
     }
 
@@ -93,11 +94,12 @@
 
       /*Se crea la pantalla del juego*/
       game.add.sprite(0,0,'play');
+      game.add.sprite(20,380,'cuadropregunta');
 
       ale=game.rnd.integerInRange(0, 2);
-      game.add.text(16,16,'Ale: '+ale,{fontsize:'32px',fill:'#000'});
+      game.add.text(16,16,'Caso: '+ale,{fontsize:'32px',fill:'#000'});
 
-      game.add.text(16,450,'*'+preguntasNubes[0],{fontsize:'32px',fill:'#000'});
+      game.add.text(40,410,'*'+preguntasNubes[0],{fontsize:'32px',fill:'#000'});
 
       switch (ale) {
         case 0:
