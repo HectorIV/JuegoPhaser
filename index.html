@@ -25,6 +25,8 @@
       game.load.spritesheet('bien', 'assets/Misc/Bien.png');
       game.load.spritesheet('mal', 'assets/Misc/Mal.png');
       game.load.spritesheet('sig', 'assets/Misc/siguiente.png', 280,57);
+      game.load.image('win', 'assets/Misc/win.png');
+      game.load.image('lose', 'assets/Misc/lose.png');
 
       /*Se cargan el sonido*/
     }
@@ -73,6 +75,8 @@
     var texto1;
     var texto2;
     var texto3;
+    var Rbuenas=0;
+    var clearS;
 
 
 
@@ -181,16 +185,19 @@
       texto3.kill();
       if(conteo<=4){
       game.add.sprite(game.world.centerX - 140, 150, 'mal');
-      game.add.button(game.world.centerX - 140, 290, 'sig', actionOnClick, this, 1, 0, 2);
+      clearS = game.add.button(game.world.centerX - 140, 290, 'sig', actionOnClick, this, 1, 0, 2);
+      clearS.onInputUp.add(limpieza, this);
       }
       else{
       game.add.sprite(game.world.centerX - 140, 150, 'mal');
-      game.add.button(game.world.centerX - 140, 290, 'sig', death, this, 1, 0, 2);
+      clearS = game.add.button(game.world.centerX - 140, 290, 'sig', resultado, this, 1, 0, 2);
+      clearS.onInputUp.add(limpieza, this);
       }
     }
 
     function  CorrectoN(){
       conteo++;
+      Rbuenas++;
       error1.kill();
       error2.kill();
       acierto.kill();
@@ -199,15 +206,32 @@
       texto3.kill();
       if(conteo<=4){
       game.add.sprite(game.world.centerX - 140, 150, 'bien');
-      game.add.button(game.world.centerX - 140, 290, 'sig', actionOnClick, this, 1, 0, 2);
+      clearS = game.add.button(game.world.centerX - 140, 290, 'sig', actionOnClick, this, 1, 0, 2);
+      clearS.onInputUp.add(limpieza, this);
       }
       else{
-      game.add.sprite(game.world.centerX - 140, 150, 'mal');
-      game.add.button(game.world.centerX - 140, 290, 'sig', death, this, 1, 0, 2);
+      game.add.sprite(game.world.centerX - 140, 150, 'bien');
+      clearS = game.add.button(game.world.centerX - 140, 290, 'sig', resultado, this, 1, 0, 2);
+      clearS.onInputUp.add(limpieza, this);
       }
     }
 
-    function death(){
+    function resultado()
+    {
+      if(Rbuenas>=3){
+        game.add.sprite(0,0,'win');
+      }
+      else{
+        game.add.sprite(0,0,'lose');
+      }
+      game.add.button(game.world.centerX - 140, 340, 'sig', reiniciar, this, 1, 0, 2);
+    }
+
+    function limpieza(){
+      clearS.kill();
+    }
+
+    function reiniciar(){
       location.reload();
     }
 
@@ -217,8 +241,6 @@
 
 
 </script>
-
-
 
  </body>
 </html>

@@ -22,6 +22,78 @@
      id="defs2">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient1847">
+      <stop
+         style="stop-color:#aa8800;stop-opacity:1;"
+         offset="0"
+         id="stop1843" />
+      <stop
+         style="stop-color:#aa8800;stop-opacity:0;"
+         offset="1"
+         id="stop1845" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1749">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop1745" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:0;"
+         offset="1"
+         id="stop1747" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1602">
+      <stop
+         style="stop-color:#0055d4;stop-opacity:1;"
+         offset="0"
+         id="stop1598" />
+      <stop
+         style="stop-color:#0055d4;stop-opacity:0;"
+         offset="1"
+         id="stop1600" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1541">
+      <stop
+         style="stop-color:#d4aa00;stop-opacity:1;"
+         offset="0"
+         id="stop1537" />
+      <stop
+         style="stop-color:#d4aa00;stop-opacity:0;"
+         offset="1"
+         id="stop1539" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1531">
+      <stop
+         style="stop-color:#aa8800;stop-opacity:1;"
+         offset="0"
+         id="stop1527" />
+      <stop
+         style="stop-color:#aa8800;stop-opacity:0;"
+         offset="1"
+         id="stop1529" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1515">
+      <stop
+         style="stop-color:#d4aa00;stop-opacity:1;"
+         offset="0"
+         id="stop1511" />
+      <stop
+         style="stop-color:#d4aa00;stop-opacity:0;"
+         offset="1"
+         id="stop1513" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient1036">
       <stop
          style="stop-color:#004455;stop-opacity:1;"
@@ -167,7 +239,8 @@
        y1="-124.44044"
        x2="244.40903"
        y2="-179.92789"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-918.00487,137.0945)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1083"
@@ -234,6 +307,84 @@
        x2="264.08224"
        y2="599.54083"
        gradientTransform="matrix(0.76637956,0,0,0.81499319,317.00442,80.966949)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1136"
+       id="linearGradient444"
+       gradientUnits="userSpaceOnUse"
+       x1="443.74722"
+       y1="628.06433"
+       x2="431.40799"
+       y2="606.41241"
+       gradientTransform="matrix(2.7887994,0,0,2.7887994,-1620.7716,-986.93214)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1515"
+       id="linearGradient1517"
+       x1="-602.19165"
+       y1="729.85834"
+       x2="-631.82501"
+       y2="660.00836"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-2.8593416,-49.704888)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1531"
+       id="linearGradient1533"
+       x1="-606.42499"
+       y1="-863.20837"
+       x2="-611.71667"
+       y2="-821.93335"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-2.8593416,49.704888)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1541"
+       id="linearGradient1543"
+       x1="-617.00836"
+       y1="782.77502"
+       x2="-658.28333"
+       y2="782.77502"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.75479366,-2.8593416,126.34322)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1602"
+       id="linearGradient1604"
+       x1="-829.177"
+       y1="636.75305"
+       x2="-829.177"
+       y2="696.6214"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0,-23.283342)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1749"
+       id="linearGradient1751"
+       x1="-378.26337"
+       y1="1260.7032"
+       x2="-378.88333"
+       y2="1143.7913"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1136"
+       id="linearGradient1785"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0398338,0,0,1.0398338,-540.50314,674.08367)"
+       x1="443.74722"
+       y1="628.06433"
+       x2="431.40799"
+       y2="606.41241" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1847"
+       id="linearGradient1849"
+       x1="-630.76666"
+       y1="1293.95"
+       x2="-643.46667"
+       y2="1206.1083"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -242,9 +393,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.10319544"
-     inkscape:cx="185.49421"
-     inkscape:cy="571.84531"
+     inkscape:zoom="0.125"
+     inkscape:cx="-3764.002"
+     inkscape:cy="-3539.8685"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -259,7 +410,7 @@
      inkscape:snap-nodes="false"
      inkscape:snap-others="true"
      inkscape:snap-object-midpoints="true"
-     showguides="false"
+     showguides="true"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0"
      inkscape:bbox-nodes="true" />
@@ -284,15 +435,15 @@
        id="rect815"
        width="1000"
        height="515"
-       x="-199.41046"
-       y="-251.84825"
+       x="-1117.4153"
+       y="-114.75375"
        ry="0"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\menu.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4" />
     <g
        id="g834"
-       transform="matrix(1.1427728,0,0,1.1427728,453.97521,-10.89758)"
+       transform="matrix(1.1427728,0,0,1.1427728,-464.02966,126.19692)"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\menu.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4">
@@ -309,7 +460,7 @@
     </g>
     <g
        id="g840"
-       transform="matrix(1.2062274,0,0,1.2062274,-243.09168,-52.714896)"
+       transform="matrix(1.2062274,0,0,1.2062274,-1161.0966,84.379601)"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\menu.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4">
@@ -326,8 +477,8 @@
     </g>
     <rect
        ry="15.757428"
-       y="-214.17131"
-       x="-29.194134"
+       y="-77.076813"
+       x="-947.19904"
        height="110.50671"
        width="653.21735"
        id="rect1991"
@@ -340,8 +491,8 @@
        id="rect1476"
        width="653.21735"
        height="110.50671"
-       x="-26.019131"
-       y="-216.81711"
+       x="-944.02399"
+       y="-79.72261"
        ry="15.757428"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\menu.png"
        inkscape:export-xdpi="25.4"
@@ -351,15 +502,15 @@
        inkscape:export-xdpi="25.4"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\menu.png"
        ry="15.757428"
-       y="-216.81711"
-       x="-26.019131"
+       y="-79.72261"
+       x="-944.02399"
        height="110.50671"
        width="653.21735"
        id="rect958"
        style="opacity:1;fill:url(#linearGradient966);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
        id="g1662"
-       transform="translate(-1.8520831,3.9687449)"
+       transform="translate(-919.85695,141.06324)"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\menu.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4">
@@ -400,7 +551,7 @@
        inkscape:export-ydpi="25.4"
        inkscape:export-xdpi="25.4"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\menu.png"
-       transform="matrix(1.2062274,0,0,1.2062274,96.889585,-111.97886)"
+       transform="matrix(1.2062274,0,0,1.2062274,-821.11529,25.115637)"
        id="g1704">
       <path
          inkscape:connector-curvature="0"
@@ -415,7 +566,7 @@
     </g>
     <g
        id="g1883"
-       transform="translate(0,1.0583333)"
+       transform="translate(-918.00487,138.15283)"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\menu.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4">
@@ -507,7 +658,7 @@
     </g>
     <g
        id="g1905"
-       transform="translate(212.00914,13.950782)"
+       transform="translate(-705.99573,151.04528)"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\menu.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4">
@@ -598,7 +749,7 @@
       </g>
     </g>
     <g
-       transform="translate(656.08234,23.978241)"
+       transform="translate(-261.92253,161.07274)"
        id="g1927"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\menu.png"
        inkscape:export-xdpi="25.4"
@@ -691,7 +842,7 @@
     </g>
     <g
        id="g1949"
-       transform="translate(815.0892,34.0057)"
+       transform="translate(-102.91567,171.1002)"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\menu.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4">
@@ -782,8 +933,8 @@
       </g>
     </g>
     <image
-       y="149.49741"
-       x="-143.42432"
+       y="286.59189"
+       x="-1061.4292"
        id="image2001"
        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAkIAAAJCCAYAAAAsp6gAAAAL60lEQVR4nO3cQXLjRhAAQY2N///Y Hh98X9oacJtQZV4VJBsgGFs7h/76AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA frd1w3vsG94DAOD/uKNhvv64400AAJ5ICAEAWUIIAMgSQgBAlhACALKEEACQJYQAgCwhBABkCSEA IEsIAQBZQggAyBJCAECWEAIAsoQQAJAlhACArGt6gL339AgAwG+21poe4evry4kQABAmhACALCEE AGQJIQAgSwgBAFlCCADIEkIAQJYQAgCyhBAAkCWEAIAsIQQAZAkhACBLCAEAWUIIAMgSQgBA1jU9 wKm11vQIAJCz954e4RZOhACALCEEAGQJIQAgSwgBAFlCCADIEkIAQJYQAgCyhBAAkCWEAIAsIQQA ZAkhACBLCAEAWUIIAMgSQgBAlhACALKu6QGm7ekBAGDAmh7gQzgRAgCyhBAAkCWEAIAsIQQAZAkh ACBLCAEAWUIIAMgSQgBAlhACALKEEACQJYQAgCwhBABkCSEAIEsIAQBZQggAyBJCAECWEAIAsoQQ AJAlhACALCEEAGQJIQAgSwgBAFlCCADIEkIAQJYQAgCyhBAAkCWEAIAsIQQAZAkhACBLCAEAWUII AMgSQgBAlhACALKEEACQJYQAgCwhBABkCSEAIEsIAQBZQggAyBJCAECWEAIAsoQQAJAlhACALCEE AGQJIQAgSwgBAFlCCADIuqYHyNt7eoJZa81+vvs/PcEZ39/0BGd8f9MT8OVECAAIE0IAQJYQAgCy hBAAkCWEAIAsIQQAZAkhACBLCAEAWUIIAMgSQgBAlhACALKEEACQJYQAgCwhBABkCSEAIOuaHqBu rXX0+r33TZN8z/H8N83xXe7/s/n+ns33xydwIgQAZAkhACBLCAEAWUIIAMgSQgBAlhACALKEEACQ JYQAgCwhBABkCSEAIEsIAQBZQggAyBJCAECWEAIAsoQQAJB1TQ9Qt6cHOGT+WU+f/9TTr//p8596 +vU/fX7+5UQIAMgSQgBAlhACALKEEACQJYQAgCwhBABkCSEAIEsIAQBZQggAyBJCAECWEAIAsoQQ AJAlhACALCEEAGQJIQAgSwgBAFlCCADIEkIAQJYQAgCyhBAAkCWEAIAsIQQAZAkhACBLCAEAWUII AMgSQgBAlhACALKEEACQJYQAgCwhBABkCSEAIEsIAQBZQggAyBJCAECWEAIAsoQQAJAlhACALCEE AGQJIQAgSwgBAFlCCADIEkIAQJYQAgCyhBAAkCWEAIAsIQQAZAkhACBLCAEAWUIIAMgSQgBAlhAC ALKEEACQJYQAgCwhBABkCSEAIEsIAQBZQggAyBJCAECWEAIAsoQQAJAlhACALCEEAGQJIQAgSwgB AFlCCADIEkIAQJYQAgCyhBAAkCWEAIAsIQQAZAkhACBLCAEAWUIIAMgSQgBAlhACALKEEACQJYQA gCwhBABkCSEAIEsIAQBZQggAyBJCAECWEAIAsoQQAJAlhACALCEEAGQJIQAgSwgBAFlCCADIEkIA QJYQAgCyhBAAkCWEAIAsIQQAZAkhACBLCAEAWUIIAMgSQgBAlhACALKEEACQJYQAgCwhBABkCSEA IEsIAQBZQggAyBJCAECWEAIAsoQQAJAlhACALCEEAGQJIQAg65oegIfbe3oCAPg2J0IAQJYQAgCy hBAAkCWEAIAsIQQAZAkhACBLCAEAWUIIAMgSQgBAlhACALKEEACQJYQAgCwhBABkCSEAIEsIAQBZ QggAyBJCAECWEAIAsoQQAJAlhACALCEEAGQJIQAgSwgBAFlCCADIEkIAQJYQAgCyhBAAkCWEAIAs IQQAZAkhACBLCAEAWdf0ADzbWmt6hFF77+kRADjgRAgAyBJCAECWEAIAsoQQAJAlhACALCEEAGQJ IQAgSwgBAFlCCADIEkIAQJYQAgCyhBAAkCWEAIAsIQQAZAkhACDrmh6AZ9vTAwDAASdCAECWEAIA soQQAJAlhACALCEEAGQJIQAgSwgBAFlCCADIEkIAQJYQAgCyhBAAkCWEAIAsIQQAZAkhACBLCAEA WUIIAMgSQgBAlhACALKEEACQJYQAgCwhBABkCSEAIEsIAQBZQggAyBJCAECWEAIAsoQQAJAlhACA LCEEAGQJIQAgSwgBAFnX9AAAWXufvX6te+aYcnr9cAMnQgBAlhACALKEEACQJYQAgCwhBABkCSEA IEsIAQBZQggAyBJCAECWEAIAsoQQAJAlhACALCEEAGQJIQAgSwgBAFnX9AAAU9ZaR6/fe980ybcH OHv94fUff/6w4+//pjmY5UQIAMgSQgBAlhACALKEEACQJYQAgCwhBABkCSEAIEsIAQBZQggAyBJC AECWEAIAsoQQAJAlhACALCEEAGQJIQAg65oeAGDKPnz9Wuvs8/fpBIemP//Q8f2/aQ6ezYkQAJAl hACALCEEAGQJIQAgSwgBAFlCCADIEkIAQJYQAgCyhBAAkCWEAIAsIQQAZAkhACBLCAEAWUIIAMgS QgBA1jU9QN7e0xOcOZ1/rXvm+C73/545ok6fnnV4//fDn9/j679pDtqcCAEAWUIIAMgSQgBAlhAC ALKEEACQJYQAgCwhBABkCSEAIEsIAQBZQggAyBJCAECWEAIAsoQQAJAlhACALCEEAGRd0wPUrbWm Rxi1hz/f/WfS6f1/+vPr+eMTOBECALKEEACQJYQAgCwhBABkCSEAIEsIAQBZQggAyBJCAECWEAIA soQQAJAlhACALCEEAGQJIQAgSwgBAFlCCADIuqYHqNvTA8S5/zyZ5xfOORECALKEEACQJYQAgCwh BABkCSEAIEsIAQBZQggAyBJCAECWEAIAsoQQAJAlhACALCEEAGQJIQAgSwgBAFlCCADIuqYHmLam BwAAxjgRAgCyhBAAkCWEAIAsIQQAZAkhACBLCAEAWUIIAMgSQgBAlhACALKEEACQJYQAgCwhBABk CSEAIEsIAQBZQggAyLqmBzi1954eAQB4KCdCAECWEAIAsoQQAJAlhACALCEEAGQJIQAgSwgBAFlC CADIEkIAQJYQAgCyhBAAkCWEAIAsIQQAZAkhACBLCAEAWdf0AKfWWtMjAEDO3nt6hFs4EQIAsoQQ AJAlhACALCEEAGQJIQAgSwgBAFlCCADIevweIX7t6XsepvdEvbp/nz7fK9Pzv/Lu6/v038ePn//F 6/9+8fc/X/z99O589q+DuzgRAgCyhBAAkCWEAIAsIQQAZAkhACBLCAEAWUIIAMiyR4hf+vQ9M6dO 97B8+p6hV6bn//Q9OD/dp+8pevU/9b9+yxT8dE6EAIAsIQQAZAkhACBLCAEAWUIIAMgSQgBAlhAC ALLsEeJHO92DcrpnZXpPz6nT+af30Lzbp39/pz79+l7+T/7V8/fh18fv4UQIAMgSQgBAlhACALKE EACQJYQAgCwhBABkCSEAIMseIY68e0/M9J6a6fd/9x6Xd+9JevfnT3v39b/b9O/37aY/n0dwIgQA ZAkhACBLCAEAWUIIAMgSQgBAlhACALKEEACQZY8QR56+B+bde04+/fpfOf1+x/fIvNn09T39+X01 /bt/PT/76eS/ciIEAGQJIQAgSwgBAFlCCADIEkIAQJYQAgCyhBAAkGWPEL/09D04vNf0Hp1pb9+z 8/A9XadO9wy1n07+KydCAECWEAIAsoQQAJAlhACALCEEAGQJIQAgSwgBAFl3rFk4WmRxugejvscE ACZ8wL/ftwSAEyEAIEsIAQBZQggAyBJCAECWEAIAsoQQAJAlhACArGt6gFOnewwAgC4nQgBAlhAC ALKEEACQJYQAgCwhBABkCSEAIEsIAQBZQggAyBJCAECWEAIAsoQQAJAlhACALCEEAGQJIQAgSwgB AFnrhvfYN7wHAMD/cUfDOBECALqEEACQJYQAgCwhBABkCSEAIEsIAQBZQggAyBJCAECWEAIAsoQQ AJAlhACALCEEAGQJIQAgSwgBAFlCCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAgDf5B1W60mBp0GEiAAAAAElFTkSuQmCC "
        preserveAspectRatio="none"
@@ -991,15 +1142,15 @@
        id="rect815-9"
        width="1000"
        height="515"
-       x="-204.11853"
-       y="327.23798"
+       x="106.11401"
+       y="-116.31763"
        ry="0"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\play.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4" />
     <g
        id="g956"
-       transform="matrix(1.0431898,0,0,0.99956724,-12.779062,1.9155339)"
+       transform="matrix(1.0431898,0,0,0.99956724,297.45348,-441.64008)"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\cuadropregunta.png"
        inkscape:export-xdpi="25.360071"
        inkscape:export-ydpi="25.360071">
@@ -1028,7 +1179,7 @@
     </g>
     <g
        id="g1026"
-       transform="matrix(1.0398338,0,0,1.0398338,261.54307,-155.7763)"
+       transform="matrix(1.0398338,0,0,1.0398338,571.77561,-599.33191)"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4">
@@ -1141,7 +1292,7 @@
     </g>
     <g
        id="g1010"
-       transform="matrix(1.0398338,0,0,1.0398338,21.599904,-41.136773)"
+       transform="matrix(1.0398338,0,0,1.0398338,331.83244,-484.69239)"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4">
@@ -1258,7 +1409,8 @@
        id="g1489"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\siguiente.png"
        inkscape:export-xdpi="25.4"
-       inkscape:export-ydpi="25.4">
+       inkscape:export-ydpi="25.4"
+       transform="translate(310.23254,-443.55561)">
       <g
          transform="matrix(0.76637956,0,0,0.81499319,-242.99906,80.966949)"
          id="g1048">
@@ -1436,6 +1588,439 @@
            id="path1248"
            d="m 1330.2456,787.41774 c -0.01,-2.99385 -29.859,-20.14602 -32.4486,-18.64365 -0.7179,0.41647 -1.2301,3.36844 -1.5418,7.44262 l -13.3926,-0.28583 c -4.7029,-0.10038 -8.5695,3.60499 -8.6699,8.30784 l -0.1062,4.9762 c -0.1003,4.70286 3.6047,8.56981 8.3075,8.67018 l 13.8645,0.29589 c 0.3249,4.36977 0.8638,7.58342 1.617,8.01619 2.5958,1.49149 32.3764,-15.78559 32.3701,-18.77944 z"
            style="opacity:0.98000004;fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.08528027;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
+    <rect
+       inkscape:export-ydpi="25.4"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       ry="0"
+       y="493.89182"
+       x="-1129.6884"
+       height="515"
+       width="1000"
+       id="rect410"
+       style="opacity:1;fill:#aaffee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.03312373;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       style="opacity:0.98000004;fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.10447801;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1052.1213,592.62779 c -2.1448,0 -4.151,0.7782 -5.8833,2.1338 11.8898,11.7352 31.1906,36.4643 31.2335,42.1947 0.041,5.5411 -17.6434,30.0856 -29.3977,43.0572 1.2621,0.6251 2.6245,0.9672 4.0475,0.9672 h 832.45197 c 1.42321,0 2.78586,-0.3419 4.04807,-0.9672 -11.75438,-12.9716 -29.43976,-37.516 -29.39824,-43.0572 0.043,-5.7305 19.34419,-30.4604 31.23391,-42.1954 -1.73231,-1.3558 -3.73883,-2.1331 -5.88374,-2.1331 z"
+       id="rect484"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1564"
+       d="m -1052.1213,592.62779 c -2.1448,0 -4.151,0.7782 -5.8833,2.1338 11.8898,11.7352 31.1906,36.4643 31.2335,42.1947 0.041,5.5411 -17.6434,30.0856 -29.3977,43.0572 1.2621,0.6251 2.6245,0.9672 4.0475,0.9672 h 832.45197 c 1.42321,0 2.78586,-0.3419 4.04807,-0.9672 -11.75438,-12.9716 -29.43976,-37.516 -29.39824,-43.0572 0.043,-5.7305 19.34419,-30.4604 31.23391,-42.1954 -1.73231,-1.3558 -3.73883,-2.1331 -5.88374,-2.1331 z"
+       style="opacity:0.98000004;fill:url(#linearGradient1604);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.10447801;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <g
+       id="g551"
+       transform="matrix(0.71821263,-0.08771756,0.08771756,0.71821263,-645.08542,113.45731)"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4">
+      <circle
+         r="87.275551"
+         cy="706.45435"
+         cx="-435.21414"
+         id="circle428"
+         style="opacity:0.98999999;fill:#d45500;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:19.52159691;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4" />
+      <circle
+         style="opacity:0.98999999;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:19.52159691;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle430"
+         cx="-436.68988"
+         cy="704.97858"
+         r="87.275551"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4" />
+      <circle
+         r="87.275551"
+         cy="704.97858"
+         cx="-436.68988"
+         id="circle432"
+         style="opacity:0.98999999;fill:url(#linearGradient444);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:19.52159691;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4" />
+      <ellipse
+         style="opacity:0.98999999;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:13.00508976;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse434"
+         cx="-470.76801"
+         cy="684.27991"
+         rx="19.483227"
+         ry="29.306639"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4" />
+      <ellipse
+         ry="29.306639"
+         rx="19.483227"
+         cy="684.27991"
+         cx="-401.86234"
+         id="ellipse436"
+         style="opacity:0.98999999;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:13.00508976;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4" />
+      <path
+         style="opacity:0.98999999;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.31655395;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -394.01948,740.07934 a 42.054848,28.348871 0 0 1 -41.96957,27.19806 42.054848,28.348871 0 0 1 -41.97079,-26.72312 42.054848,28.348871 0 0 0 -0.0846,1.14616 42.054848,28.348871 0 0 0 42.05509,28.3483 42.054848,28.348871 0 0 0 42.05508,-28.3483 42.054848,28.348871 0 0 0 -0.0856,-1.6211 z"
+         id="path438"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4" />
+    </g>
+    <path
+       transform="matrix(0.21758086,0.9760423,-0.98191073,0.18934446,0,0)"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffae12;stroke-width:12.24254608;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1442"
+       sodipodi:type="arc"
+       sodipodi:cx="478.87332"
+       sodipodi:cy="835.84375"
+       sodipodi:rx="62.496651"
+       sodipodi:ry="75.513283"
+       sodipodi:start="0"
+       sodipodi:end="3.1511764"
+       sodipodi:open="true"
+       d="m 541.36997,835.84375 a 62.496651,75.513283 0 0 1 -31.42138,65.5167 62.496651,75.513283 0 0 1 -62.66876,-0.36285 62.496651,75.513283 0 0 1 -30.90029,-65.87754"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <path
+       d="m 779.92567,-393.87247 a 62.496651,75.513283 0 0 1 -31.42139,65.51671 62.496651,75.513283 0 0 1 -62.66875,-0.36285 62.496651,75.513283 0 0 1 -30.90029,-65.87755"
+       sodipodi:open="true"
+       sodipodi:end="3.1511764"
+       sodipodi:start="0"
+       sodipodi:ry="75.513283"
+       sodipodi:rx="62.496651"
+       sodipodi:cy="-393.87247"
+       sodipodi:cx="717.42902"
+       sodipodi:type="arc"
+       id="path1432"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffae12;stroke-width:12.24254608;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(-0.21758086,0.9760423,0.98191073,0.18934446,0,0)"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <rect
+       style="opacity:1;fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:9.1358366;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1519"
+       width="34.924995"
+       height="131.23334"
+       x="-651.28192"
+       y="668.25403"
+       ry="8.7421227"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <rect
+       ry="6.5984983"
+       y="668.25403"
+       x="-651.28192"
+       height="99.054085"
+       width="34.924995"
+       id="rect1535"
+       style="opacity:1;fill:url(#linearGradient1543);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7.9371109;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <path
+       style="opacity:1;fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.14157511;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1430"
+       sodipodi:type="arc"
+       sodipodi:cx="-630.617"
+       sodipodi:cy="555.04584"
+       sodipodi:rx="132.77975"
+       sodipodi:ry="162.32327"
+       sodipodi:start="0"
+       sodipodi:end="3.1511764"
+       sodipodi:open="true"
+       d="m -497.83725,555.04584 a 132.77975,162.32327 0 0 1 -66.75756,140.83463 132.77975,162.32327 0 0 1 -133.14541,-0.77998 132.77975,162.32327 0 0 1 -65.65044,-141.61029"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <path
+       d="m -497.83725,555.04584 a 132.77975,162.32327 0 0 1 -66.75756,140.83463 132.77975,162.32327 0 0 1 -133.14541,-0.77998 132.77975,162.32327 0 0 1 -65.65044,-141.61029"
+       sodipodi:open="true"
+       sodipodi:end="3.1511764"
+       sodipodi:start="0"
+       sodipodi:ry="162.32327"
+       sodipodi:rx="132.77975"
+       sodipodi:cy="555.04584"
+       sodipodi:cx="-630.617"
+       sodipodi:type="arc"
+       id="path1501"
+       style="opacity:1;fill:url(#linearGradient1517);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.14157511;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <path
+       style="opacity:1;fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.05025201;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1521"
+       sodipodi:type="arc"
+       sodipodi:cx="-633.81946"
+       sodipodi:cy="-805.78906"
+       sodipodi:rx="59.22559"
+       sodipodi:ry="45.849667"
+       sodipodi:start="0"
+       sodipodi:end="3.1511764"
+       sodipodi:open="true"
+       d="m -574.59387,-805.78906 a 59.22559,45.849667 0 0 1 -29.7768,39.78001 59.22559,45.849667 0 0 1 -59.38868,-0.22032 59.22559,45.849667 0 0 1 -29.28298,-39.9991"
+       transform="scale(1,-1)"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <path
+       transform="scale(1,-1)"
+       d="m -574.59387,-805.78906 a 59.22559,45.849667 0 0 1 -29.7768,39.78001 59.22559,45.849667 0 0 1 -59.38868,-0.22032 59.22559,45.849667 0 0 1 -29.28298,-39.9991"
+       sodipodi:open="true"
+       sodipodi:end="3.1511764"
+       sodipodi:start="0"
+       sodipodi:ry="45.849667"
+       sodipodi:rx="59.22559"
+       sodipodi:cy="-805.78906"
+       sodipodi:cx="-633.81946"
+       sodipodi:type="arc"
+       id="path1525"
+       style="opacity:1;fill:url(#linearGradient1533);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.05025201;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <rect
+       style="opacity:1;fill:#d4aa00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:12.23999977;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1545"
+       width="285.75"
+       height="11.641666"
+       x="-775.10693"
+       y="551.56342"
+       ry="5.8208332"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <g
+       id="g591"
+       transform="matrix(0.95319292,0,0,0.87000978,187.99948,62.287632)"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4">
+      <g
+         id="g426"
+         transform="matrix(1.4168225,0,0,1.4932128,-1270.7804,-212.47164)"
+         style="opacity:0.98999999"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4">
+        <text
+           id="text420"
+           y="609.87012"
+           x="217.96147"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.79865265px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.94994354px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';stroke-width:2.94994354px"
+             y="609.87012"
+             x="217.96147"
+             id="tspan418"
+             sodipodi:role="line">WIN</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.79865265px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.94994354px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="216.37399"
+           y="607.75342"
+           id="text424"><tspan
+             sodipodi:role="line"
+             id="tspan422"
+             x="216.37399"
+             y="607.75342"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff;stroke-width:2.94994354px">WIN</tspan></text>
+      </g>
+    </g>
+    <rect
+       ry="5.8208332"
+       y="797.37177"
+       x="-697.74304"
+       height="11.641666"
+       width="127.84716"
+       id="rect1665"
+       style="opacity:1;fill:#554400;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8.18717098;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <rect
+       style="opacity:1;fill:#aaffee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.03312373;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1667"
+       width="1000"
+       height="515"
+       x="-1148.7383"
+       y="1095.0251"
+       ry="0"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\lose.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <path
+       inkscape:export-ydpi="25.4"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\lose.png"
+       inkscape:connector-curvature="0"
+       id="path1669"
+       d="m -1071.1713,1193.7611 c -2.1448,0 -4.151,0.7782 -5.8833,2.1338 11.8898,11.7352 31.1906,36.4643 31.2335,42.1947 0.041,5.5411 -17.6434,30.0856 -29.3977,43.0572 1.2621,0.6251 2.6245,0.9672 4.0475,0.9672 h 832.45197 c 1.42321,0 2.78586,-0.3419 4.04807,-0.9672 -11.75438,-12.9716 -29.43976,-37.516 -29.39824,-43.0572 0.043,-5.7305 19.34419,-30.4604 31.23391,-42.1954 -1.73231,-1.3558 -3.73883,-2.1331 -5.88374,-2.1331 z"
+       style="opacity:0.98000004;fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.10447801;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="25.4"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\lose.png"
+       style="opacity:0.98000004;fill:url(#linearGradient1751);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.10447801;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -1071.1713,1193.7611 c -2.1448,0 -4.151,0.7782 -5.8833,2.1338 11.8898,11.7352 31.1906,36.4643 31.2335,42.1947 0.041,5.5411 -17.6434,30.0856 -29.3977,43.0572 1.2621,0.6251 2.6245,0.9672 4.0475,0.9672 h 832.45197 c 1.42321,0 2.78586,-0.3419 4.04807,-0.9672 -11.75438,-12.9716 -29.43976,-37.516 -29.39824,-43.0572 0.043,-5.7305 19.34419,-30.4604 31.23391,-42.1954 -1.73231,-1.3558 -3.73883,-2.1331 -5.88374,-2.1331 z"
+       id="path1671"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       inkscape:export-ydpi="25.4"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\lose.png"
+       style="opacity:0.98000004;fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:9.22591114;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse1753"
+       cx="-654.94507"
+       cy="1237.9375"
+       rx="177.29817"
+       ry="70.180527" />
+    <ellipse
+       ry="70.180527"
+       rx="177.29817"
+       cy="1237.9375"
+       cx="-654.94507"
+       id="ellipse1833"
+       style="opacity:0.98000004;fill:url(#linearGradient1849);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:9.22591114;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\lose.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4" />
+    <g
+       id="g1807"
+       transform="matrix(1.9918032,-0.78306235,0.78306235,1.9918032,-1739.8465,-1405.1665)"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\lose.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4">
+      <circle
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         style="opacity:0.98000004;fill:#d45500;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7.27883673;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle1769"
+         cx="-98.455284"
+         cy="1305.481"
+         r="32.541626" />
+      <circle
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         r="32.541626"
+         cy="1304.9308"
+         cx="-99.005539"
+         id="circle1771"
+         style="opacity:0.98000004;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7.27883673;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         style="opacity:0.98000004;fill:url(#linearGradient1785);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7.27883673;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle1773"
+         cx="-99.005539"
+         cy="1304.9308"
+         r="32.541626" />
+      <ellipse
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         ry="10.927294"
+         rx="7.2645302"
+         cy="1297.213"
+         cx="-111.71193"
+         id="ellipse1775"
+         style="opacity:0.98000004;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.84908724;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         style="opacity:0.98000004;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.84908724;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse1777"
+         cx="-86.019707"
+         cy="1297.213"
+         rx="7.2645302"
+         ry="10.927294" />
+      <path
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         inkscape:connector-curvature="0"
+         id="path1779"
+         d="m -83.095422,1329.1928 a 15.680601,10.570181 0 0 0 -15.648802,-10.141 15.680601,10.570181 0 0 0 -15.649256,9.964 15.680601,10.570181 0 0 1 -0.0315,-0.4274 15.680601,10.570181 0 0 1 15.680693,-10.57 15.680601,10.570181 0 0 1 15.680683,10.57 15.680601,10.570181 0 0 1 -0.03192,0.6044 z"
+         style="opacity:0.98000004;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.11803053;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1831"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\lose.png"
+       inkscape:export-xdpi="25.4"
+       inkscape:export-ydpi="25.4">
+      <g
+         style="fill:#000000"
+         id="g1715"
+         transform="matrix(0.95319292,0,0,0.87000978,162.74269,548.83328)"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4">
+        <g
+           id="g1713"
+           transform="matrix(1.4168225,0,0,1.4932128,-1270.7804,-212.47164)"
+           style="opacity:0.98999999;fill:#000000"
+           inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+           inkscape:export-xdpi="25.4"
+           inkscape:export-ydpi="25.4">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.79865265px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.94994354px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="207.34676"
+             y="698.07458"
+             id="text1711"><tspan
+               sodipodi:role="line"
+               id="tspan1709"
+               x="207.34676"
+               y="698.07458"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#000000;stroke-width:2.94994354px">Lose</tspan></text>
+        </g>
+      </g>
+      <g
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+         transform="matrix(0.95319292,0,0,0.87000978,160.62601,547.77494)"
+         id="g1821"
+         style="fill:#ffffff">
+        <g
+           inkscape:export-ydpi="25.4"
+           inkscape:export-xdpi="25.4"
+           inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+           style="opacity:0.98999999;fill:#ffffff"
+           transform="matrix(1.4168225,0,0,1.4932128,-1270.7804,-212.47164)"
+           id="g1819">
+          <text
+             id="text1817"
+             y="698.07458"
+             x="207.34676"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.79865265px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.94994354px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff;stroke-width:2.94994354px"
+               y="698.07458"
+               x="207.34676"
+               id="tspan1815"
+               sodipodi:role="line">Lose</tspan></text>
+        </g>
       </g>
     </g>
   </g>
