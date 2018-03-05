@@ -11,19 +11,23 @@
  <body>
    <center> <div id="gameDiv"> </div> </center>
    <script type="text/javascript">
-
+  /*Tamaño del juego*/
    var game= new Phaser.Game(1000, 515, Phaser.AUTO, 'gameDiv',{preload:preload, create: create, update: update});
-
+  /*Se cargan los archivos*/
     function preload(){
+      /*Se cargan las imagenes*/
       game.load.image('loading', 'assets/Misc/load.png');
       game.load.image('menu', 'assets/Misc/menu.png');
       game.load.spritesheet('playbt', 'assets/Misc/playbt.png', 200,60);
       game.load.image('play', 'assets/Misc/play.png');
       game.load.spritesheet('nube', 'assets/Misc/nube.png');
       game.load.image('cuadropregunta', 'assets/Misc/cuadropregunta.png');
+      game.load.spritesheet('bien', 'assets/Misc/Bien.png');
+      game.load.spritesheet('mal', 'assets/Misc/Mal.png');
 
+      /*Se cargan el sonido*/
     }
-
+/*Variables globales*/
     var button;
     var menu;
     var load;
@@ -31,6 +35,7 @@
     var acierto;
     var error1;
     var error2;
+    /*Preguntas del nivel de las nubes*/
     var preguntasNubes = [
       [ 'Pregunta1'],
       [ 'Pregunta2' ],
@@ -38,7 +43,7 @@
       [ 'Pregunta4'],
       [ 'Pregunta5'],
     ];
-
+    /*Respuesta correcta*/
     var respuestaCN = [
      [ 'Respuesta1'],
      [ 'Respuesta2' ],
@@ -46,7 +51,7 @@
      [ 'Respuesta4'],
      [ 'Respuesta5'],
     ];
-
+    /*Respuestas incorrectas*/
     var respuestaIN1 = [
      [ 'Incorrecto1'],
      [ 'Incorrecto2' ],
@@ -65,15 +70,17 @@
 
 
     function create(){
+
      load = game.add.image(0,0, 'loading');
      menu = game.add.sprite(0,0,'menu');
+     /*Se crea el boton play y llama a la funcion actionOnClick que contiene el codigo del primer mundo*/
      button = game.add.button(game.world.centerX - 100, 400, 'playbt', actionOnClick, this, 1, 0, 2);
      button.onInputOver.add(over, this);
      button.onInputOut.add(out, this);
      button.onInputUp.add(up, this);
 
     }
-
+    /*Esto es solo para estetica del boton play*/
     function up() {
     console.log('button up', arguments);
     }
@@ -87,20 +94,21 @@
     }
 
     function actionOnClick () {
-
+      /*Elimino la pantalla inicial*/
       load.kill();
       menu.kill();
       button.kill();
 
-      /*Se crea la pantalla del juego*/
+      /*Se crea la pantalla del juego donde play es el fondo*/
       game.add.sprite(0,0,'play');
       game.add.sprite(20,380,'cuadropregunta');
-
+      /*Genero un numero aleatorio del 0 al 2*/
       ale=game.rnd.integerInRange(0, 2);
+      /*Lo muestro para hacer pruebas*/
       game.add.text(16,16,'Caso: '+ale,{fontsize:'32px',fill:'#000'});
-
+      /*Muestro la pregunta con un arreglo*/
       game.add.text(40,410,'*'+preguntasNubes[0],{fontsize:'32px',fill:'#000'});
-
+      /*Dependiendo del número se mostrara las opciones en diferentes formas*/
       switch (ale) {
         case 0:
 
@@ -156,11 +164,11 @@
     }
 
     function  Error1N(){
-      game.add.text(game.world.centerX, game.world.centerY, 'Mal');
+      game.add.button(game.world.centerX - 147.5, game.world.centerY-53.5, 'mal', actionOnClick, this);
     }
 
     function  CorrectoN(){
-      game.add.text(game.world.centerX, game.world.centerY, 'Bien');
+      game.add.button(game.world.centerX - 147.5, game.world.centerY-53.5, 'bien', actionOnClick, this);
     }
 
     function update(){
