@@ -24,6 +24,7 @@
       game.load.image('cuadropregunta', 'assets/Misc/cuadropregunta.png');
       game.load.spritesheet('bien', 'assets/Misc/Bien.png');
       game.load.spritesheet('mal', 'assets/Misc/Mal.png');
+      game.load.spritesheet('sig', 'assets/Misc/siguiente.png', 280,57);
 
       /*Se cargan el sonido*/
     }
@@ -67,6 +68,12 @@
      [ 'Incorrecto4'],
      [ 'Incorrecto5'],
     ];
+    /*La variable que hace que todo se repita*/
+    var conteo=0;
+    var texto1;
+    var texto2;
+    var texto3;
+
 
 
     function create(){
@@ -107,7 +114,7 @@
       /*Lo muestro para hacer pruebas*/
       game.add.text(16,16,'Caso: '+ale,{fontsize:'32px',fill:'#000'});
       /*Muestro la pregunta con un arreglo*/
-      game.add.text(40,410,'*'+preguntasNubes[0],{fontsize:'32px',fill:'#000'});
+      game.add.text(40,410,'*'+preguntasNubes[conteo],{fontsize:'32px',fill:'#000'});
       /*Dependiendo del número se mostrara las opciones en diferentes formas*/
       switch (ale) {
         case 0:
@@ -116,9 +123,9 @@
         error1 = game.add.button(game.world.centerX - 105, 100, 'nube');
         error2 = game.add.button(705, 200, 'nube');
 
-        game.add.text(120,240,''+respuestaCN[0],{fontsize:'32px',fill:'#000'});
-        game.add.text(game.world.centerX - 85, 140,''+respuestaIN1[0],{fontsize:'32px',fill:'#000'});
-        game.add.text(725,240,''+respuestaIN2[0],{fontsize:'32px',fill:'#000'});
+        texto1 = game.add.text(120,240,''+respuestaCN[conteo],{fontsize:'32px',fill:'#000'});
+        texto2 = game.add.text(game.world.centerX - 85, 140,''+respuestaIN1[conteo],{fontsize:'32px',fill:'#000'});
+        texto3 = game.add.text(725,240,''+respuestaIN2[conteo],{fontsize:'32px',fill:'#000'});
 
         error1.onInputUp.add(Error1N, this);
         error2.onInputUp.add(Error1N, this);
@@ -132,9 +139,9 @@
        acierto = game.add.button(game.world.centerX - 105, 100, 'nube');
        error2 = game.add.button(705, 200, 'nube');
 
-       game.add.text(120,240,''+respuestaIN1[0],{fontsize:'32px',fill:'#000'});
-       game.add.text(game.world.centerX - 85, 140,''+respuestaCN[0],{fontsize:'32px',fill:'#000'});
-       game.add.text(725,240,''+respuestaIN2[0],{fontsize:'32px',fill:'#000'});
+       texto1 = game.add.text(120,240,''+respuestaIN1[conteo],{fontsize:'32px',fill:'#000'});
+       texto2 = game.add.text(game.world.centerX - 85, 140,''+respuestaCN[conteo],{fontsize:'32px',fill:'#000'});
+       texto3 = game.add.text(725,240,''+respuestaIN2[conteo],{fontsize:'32px',fill:'#000'});
 
        error1.onInputUp.add(Error1N, this);
        error2.onInputUp.add(Error1N, this);
@@ -148,9 +155,9 @@
        error1 = game.add.button(game.world.centerX - 105, 100, 'nube');
        acierto = game.add.button(705, 200, 'nube');
 
-       game.add.text(120,240,''+respuestaIN2[0],{fontsize:'32px',fill:'#000'});
-       game.add.text(game.world.centerX - 85, 140,''+respuestaIN1[0],{fontsize:'32px',fill:'#000'});
-       game.add.text(725,240,''+respuestaCN[0],{fontsize:'32px',fill:'#000'});
+       texto1 = game.add.text(120,240,''+respuestaIN2[conteo],{fontsize:'32px',fill:'#000'});
+       texto2 = game.add.text(game.world.centerX - 85, 140,''+respuestaIN1[conteo],{fontsize:'32px',fill:'#000'});
+       texto3 = game.add.text(725,240,''+respuestaCN[conteo],{fontsize:'32px',fill:'#000'});
 
        error1.onInputUp.add(Error1N, this);
        error2.onInputUp.add(Error1N, this);
@@ -164,11 +171,29 @@
     }
 
     function  Error1N(){
-      game.add.button(game.world.centerX - 147.5, game.world.centerY-53.5, 'mal', actionOnClick, this);
+      conteo++;
+      error1.kill();
+      error2.kill();
+      acierto.kill();
+      texto1.kill();
+      texto2.kill();
+      texto3.kill();
+      game.add.sprite(game.world.centerX - 140, 150, 'mal');
+      game.add.button(game.world.centerX - 140, 290, 'sig', actionOnClick, this, 1, 0, 2);
+
     }
 
     function  CorrectoN(){
-      game.add.button(game.world.centerX - 147.5, game.world.centerY-53.5, 'bien', actionOnClick, this);
+      conteo++;
+      error1.kill();
+      error2.kill();
+      acierto.kill();
+      texto1.kill();
+      texto2.kill();
+      texto3.kill();
+      game.add.sprite(game.world.centerX - 140, 150, 'bien');
+      game.add.button(game.world.centerX - 140, 290, 'sig', actionOnClick, this, 1, 0, 2);
+
     }
 
     function update(){
