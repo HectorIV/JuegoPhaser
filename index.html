@@ -106,6 +106,7 @@
       menu.kill();
       button.kill();
 
+
       /*Se crea la pantalla del juego donde play es el fondo*/
       game.add.sprite(0,0,'play');
       game.add.sprite(20,380,'cuadropregunta');
@@ -178,9 +179,14 @@
       texto1.kill();
       texto2.kill();
       texto3.kill();
+      if(conteo<=4){
       game.add.sprite(game.world.centerX - 140, 150, 'mal');
       game.add.button(game.world.centerX - 140, 290, 'sig', actionOnClick, this, 1, 0, 2);
-
+      }
+      else{
+      game.add.sprite(game.world.centerX - 140, 150, 'mal');
+      game.add.button(game.world.centerX - 140, 290, 'sig', death, this, 1, 0, 2);
+      }
     }
 
     function  CorrectoN(){
@@ -191,9 +197,18 @@
       texto1.kill();
       texto2.kill();
       texto3.kill();
+      if(conteo<=4){
       game.add.sprite(game.world.centerX - 140, 150, 'bien');
       game.add.button(game.world.centerX - 140, 290, 'sig', actionOnClick, this, 1, 0, 2);
+      }
+      else{
+      game.add.sprite(game.world.centerX - 140, 150, 'mal');
+      game.add.button(game.world.centerX - 140, 290, 'sig', death, this, 1, 0, 2);
+      }
+    }
 
+    function death(){
+      location.reload();
     }
 
     function update(){

@@ -22,6 +22,30 @@
      id="defs2">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient1036">
+      <stop
+         style="stop-color:#004455;stop-opacity:1;"
+         offset="0"
+         id="stop1032" />
+      <stop
+         style="stop-color:#004455;stop-opacity:0;"
+         offset="1"
+         id="stop1034" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient992">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop988" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:0;"
+         offset="1"
+         id="stop990" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient1136">
       <stop
          style="stop-color:#ffcc00;stop-opacity:1;"
@@ -162,6 +186,54 @@
        x2="431.40799"
        y2="606.41241"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1136"
+       id="linearGradient978"
+       gradientUnits="userSpaceOnUse"
+       x1="443.74722"
+       y1="628.06433"
+       x2="431.40799"
+       y2="606.41241"
+       gradientTransform="translate(-295.04942,-107.01515)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient992"
+       id="linearGradient994"
+       x1="67.079323"
+       y1="479.03308"
+       x2="-95.335655"
+       y2="476.01593"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1036"
+       id="linearGradient1038"
+       x1="264.08224"
+       y1="703.37897"
+       x2="264.08224"
+       y2="599.54083"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1036"
+       id="linearGradient1095"
+       gradientUnits="userSpaceOnUse"
+       x1="264.08224"
+       y1="703.37897"
+       x2="264.08224"
+       y2="599.54083"
+       gradientTransform="matrix(0.76637956,0,0,0.81499319,37.002679,80.966949)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1036"
+       id="linearGradient1194"
+       gradientUnits="userSpaceOnUse"
+       x1="264.08224"
+       y1="703.37897"
+       x2="264.08224"
+       y2="599.54083"
+       gradientTransform="matrix(0.76637956,0,0,0.81499319,317.00442,80.966949)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -170,9 +242,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.14205605"
-     inkscape:cx="628.0315"
-     inkscape:cy="-815.30921"
+     inkscape:zoom="0.10319544"
+     inkscape:cx="185.49421"
+     inkscape:cy="571.84531"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -955,110 +1027,416 @@
          ry="14.446693" />
     </g>
     <g
-       id="g1089"
-       style="opacity:0.99"
+       id="g1026"
+       transform="matrix(1.0398338,0,0,1.0398338,261.54307,-155.7763)"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4">
+      <g
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         style="opacity:0.98999999"
+         id="g1089">
+        <ellipse
+           style="opacity:1;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path1075"
+           cx="295.88147"
+           cy="584.73798"
+           rx="134.52191"
+           ry="53.248257" />
+        <ellipse
+           ry="53.248257"
+           rx="134.52191"
+           cy="584.73798"
+           cx="295.88147"
+           id="ellipse1077"
+           style="opacity:1;fill:url(#linearGradient1085);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         style="opacity:0.98999999"
+         transform="translate(0.79373625,1.0583474)"
+         id="g1103">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.79865265px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.94994354px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="217.96147"
+           y="609.87012"
+           id="text1093"><tspan
+             sodipodi:role="line"
+             id="tspan1091"
+             x="217.96147"
+             y="609.87012"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';stroke-width:2.94994354px">Bien</tspan></text>
+        <text
+           id="text1097"
+           y="607.75342"
+           x="216.37399"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.79865265px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.94994354px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff;stroke-width:2.94994354px"
+             y="607.75342"
+             x="216.37399"
+             id="tspan1095"
+             sodipodi:role="line">Bien</tspan></text>
+      </g>
+      <circle
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         style="opacity:0.98999999;fill:#d45500;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle1113"
+         cx="425.11395"
+         cy="607.20984"
+         r="31.295027" />
+      <circle
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         r="31.295027"
+         cy="606.68066"
+         cx="424.58478"
+         id="path1105"
+         style="opacity:0.98999999;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         style="opacity:0.98999999;fill:url(#linearGradient1138);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle1130"
+         cx="424.58478"
+         cy="606.68066"
+         r="31.295027" />
       <ellipse
-         ry="53.248257"
-         rx="134.52191"
-         cy="584.73798"
-         cx="295.88147"
-         id="path1075"
-         style="opacity:1;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         ry="10.508693"
+         rx="6.9862418"
+         cy="599.25861"
+         cx="412.36514"
+         id="path1109"
+         style="opacity:0.98999999;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.66332912;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <ellipse
-         style="opacity:1;fill:url(#linearGradient1085);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="ellipse1077"
-         cx="295.88147"
-         cy="584.73798"
-         rx="134.52191"
-         ry="53.248257" />
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         style="opacity:0.98999999;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.66332912;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse1111"
+         cx="437.07315"
+         cy="599.25861"
+         rx="6.9862418"
+         ry="10.508693" />
+      <path
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+         inkscape:connector-curvature="0"
+         id="path1121"
+         d="m 439.88541,619.26701 a 15.079911,10.16526 0 0 1 -15.04933,9.7526 15.079911,10.16526 0 0 1 -15.04977,-9.5823 15.079911,10.16526 0 0 0 -0.0303,0.41099 15.079911,10.16526 0 0 0 15.08,10.16505 15.079911,10.16526 0 0 0 15.07999,-10.16505 15.079911,10.16526 0 0 0 -0.0307,-0.58129 z"
+         style="opacity:0.98999999;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.11350903;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
-       id="g1103"
-       transform="translate(0.79373625,1.0583474)"
-       style="opacity:0.99"
-       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+       id="g1010"
+       transform="matrix(1.0398338,0,0,1.0398338,21.599904,-41.136773)"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4">
-      <text
-         id="text1093"
-         y="609.87012"
-         x="217.96147"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.79865265px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.94994354px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';stroke-width:2.94994354px"
-           y="609.87012"
-           x="217.96147"
-           id="tspan1091"
-           sodipodi:role="line">Bien</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.79865265px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.94994354px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="216.37399"
-         y="607.75342"
-         id="text1097"><tspan
-           sodipodi:role="line"
-           id="tspan1095"
-           x="216.37399"
-           y="607.75342"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff;stroke-width:2.94994354px">Bien</tspan></text>
+      <ellipse
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         style="opacity:0.98000004;fill:#aa0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse948"
+         cx="0.83204973"
+         cy="477.72284"
+         rx="134.52191"
+         ry="53.248257" />
+      <ellipse
+         inkscape:export-ydpi="25.4"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         ry="53.248257"
+         rx="134.52191"
+         cy="477.72284"
+         cx="0.83204973"
+         id="ellipse950"
+         style="opacity:0.98000004;fill:url(#linearGradient994);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         id="g962"
+         transform="translate(-276.57331,-105.74938)"
+         style="opacity:0.98000004"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4">
+        <g
+           id="g984">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.79865265px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.94994354px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="217.96147"
+             y="609.87012"
+             id="text956"><tspan
+               sodipodi:role="line"
+               id="tspan954"
+               x="217.96147"
+               y="609.87012"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';stroke-width:2.94994354px">Mal</tspan></text>
+          <text
+             id="text960"
+             y="607.75342"
+             x="216.37399"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.79865265px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.94994354px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff;stroke-width:2.94994354px"
+               y="607.75342"
+               x="216.37399"
+               id="tspan958"
+               sodipodi:role="line">Mal</tspan></text>
+        </g>
+      </g>
+      <circle
+         r="31.295027"
+         cy="500.1947"
+         cx="130.06453"
+         id="circle964"
+         style="opacity:0.98000004;fill:#d45500;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4" />
+      <circle
+         style="opacity:0.98000004;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle966"
+         cx="129.53535"
+         cy="499.66553"
+         r="31.295027"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4" />
+      <circle
+         r="31.295027"
+         cy="499.66553"
+         cx="129.53535"
+         id="circle968"
+         style="opacity:0.98000004;fill:url(#linearGradient978);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4" />
+      <ellipse
+         style="opacity:0.98000004;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.66332912;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="ellipse970"
+         cx="117.31572"
+         cy="492.24347"
+         rx="6.9862418"
+         ry="10.508693"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4" />
+      <ellipse
+         ry="10.508693"
+         rx="6.9862418"
+         cy="492.24347"
+         cx="142.02373"
+         id="ellipse972"
+         style="opacity:0.98000004;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.66332912;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4" />
+      <path
+         style="opacity:0.98000004;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.11350903;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 144.83599,522.9982 a 15.079911,10.16526 0 0 0 -15.04933,-9.7526 15.079911,10.16526 0 0 0 -15.04977,9.5823 15.079911,10.16526 0 0 1 -0.0303,-0.41099 15.079911,10.16526 0 0 1 15.08,-10.16505 15.079911,10.16526 0 0 1 15.07999,10.16505 15.079911,10.16526 0 0 1 -0.0307,0.58129 z"
+         id="path974"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Mal.png"
+         inkscape:export-xdpi="25.4"
+         inkscape:export-ydpi="25.4" />
     </g>
-    <circle
-       r="31.295027"
-       cy="607.20984"
-       cx="425.11395"
-       id="circle1113"
-       style="opacity:0.99;fill:#d45500;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+    <g
+       id="g1489"
+       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\siguiente.png"
        inkscape:export-xdpi="25.4"
-       inkscape:export-ydpi="25.4" />
-    <circle
-       style="opacity:0.99;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path1105"
-       cx="424.58478"
-       cy="606.68066"
-       r="31.295027"
-       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
-       inkscape:export-xdpi="25.4"
-       inkscape:export-ydpi="25.4" />
-    <circle
-       r="31.295027"
-       cy="606.68066"
-       cx="424.58478"
-       id="circle1130"
-       style="opacity:0.99;fill:url(#linearGradient1138);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:7;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
-       inkscape:export-xdpi="25.4"
-       inkscape:export-ydpi="25.4" />
-    <ellipse
-       style="opacity:0.99;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.66332912;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path1109"
-       cx="412.36514"
-       cy="599.25861"
-       rx="6.9862418"
-       ry="10.508693"
-       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
-       inkscape:export-xdpi="25.4"
-       inkscape:export-ydpi="25.4" />
-    <ellipse
-       ry="10.508693"
-       rx="6.9862418"
-       cy="599.25861"
-       cx="437.07315"
-       id="ellipse1111"
-       style="opacity:0.99;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.66332912;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
-       inkscape:export-xdpi="25.4"
-       inkscape:export-ydpi="25.4" />
-    <path
-       style="opacity:0.99;fill:#1a1a1a;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.11350903;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 439.88541,619.26701 a 15.079911,10.16526 0 0 1 -15.04933,9.7526 15.079911,10.16526 0 0 1 -15.04977,-9.5823 15.079911,10.16526 0 0 0 -0.0303,0.41099 15.079911,10.16526 0 0 0 15.08,10.16505 15.079911,10.16526 0 0 0 15.07999,-10.16505 15.079911,10.16526 0 0 0 -0.0307,-0.58129 z"
-       id="path1121"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
-       inkscape:export-xdpi="25.4"
-       inkscape:export-ydpi="25.4" />
+       inkscape:export-ydpi="25.4">
+      <g
+         transform="matrix(0.76637956,0,0,0.81499319,-242.99906,80.966949)"
+         id="g1048">
+        <rect
+           style="opacity:0.98000004;fill:#00aad4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.09736179;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1028"
+           width="365.35648"
+           height="70.507393"
+           x="155.11626"
+           y="582.87543"
+           ry="28.47414" />
+        <rect
+           ry="28.47414"
+           y="582.87543"
+           x="155.11626"
+           height="70.507393"
+           width="365.35648"
+           id="rect1030"
+           style="opacity:0.98000004;fill:url(#linearGradient1038);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.09736179;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+      <g
+         transform="matrix(0.81499319,0,0,0.81499319,-252.17131,80.398065)"
+         id="g1146">
+        <g
+           id="g1087"
+           transform="translate(1.0583333)">
+          <text
+             transform="scale(0.95811586,1.0437151)"
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.01845169px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.20910168px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="186.03587"
+             y="608.50793"
+             id="text1097-9"><tspan
+               sodipodi:role="line"
+               id="tspan1095-9"
+               x="186.03587"
+               y="608.50793"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#000000;stroke-width:2.20910168px">Siguiente</tspan></text>
+          <text
+             id="text1070"
+             y="608.50793"
+             x="183.82669"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.01845169px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.20910168px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"
+             transform="scale(0.95811586,1.0437151)"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff;stroke-width:2.20910168px"
+               y="608.50793"
+               x="183.82669"
+               id="tspan1068"
+               sodipodi:role="line">Siguiente</tspan></text>
+        </g>
+        <g
+           id="g1081"
+           transform="rotate(-1.5271721,550.73261,869.84025)">
+          <path
+             inkscape:connector-curvature="0"
+             id="rect1072"
+             d="m 488.44018,620.08447 c 0.0736,-2.99295 -29.31144,-20.93463 -31.94016,-19.50181 -0.72873,0.39719 -1.31944,3.33446 -1.73963,7.39888 l -13.38024,-0.64265 c -4.69851,-0.22568 -8.66253,3.37532 -8.88819,8.07383 l -0.23879,4.9716 c -0.22567,4.69851 3.37499,8.66283 8.07351,8.8885 l 13.85163,0.66529 c 0.20832,4.37688 0.66136,7.60375 1.40276,8.05644 2.5552,1.56014 32.7856,-14.91712 32.85911,-17.91008 z"
+             style="opacity:0.98000004;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.08528027;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+          <path
+             style="opacity:0.98000004;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.08528027;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 485.79433,619.02613 c 0.0736,-2.99295 -29.31144,-20.93463 -31.94016,-19.50181 -0.72873,0.39719 -1.31944,3.33446 -1.73963,7.39888 l -13.38024,-0.64265 c -4.69851,-0.22568 -8.66253,3.37532 -8.88819,8.07383 l -0.23879,4.9716 c -0.22567,4.69851 3.37499,8.66283 8.07351,8.8885 l 13.85163,0.66529 c 0.20832,4.37688 0.66136,7.60375 1.40276,8.05644 2.5552,1.56014 32.7856,-14.91712 32.85911,-17.91008 z"
+             id="path1077"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <rect
+         style="opacity:0.98000004;fill:#00ccff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.07694625;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1089"
+         width="280.00174"
+         height="57.463043"
+         x="155.8806"
+         y="556.00647"
+         ry="23.20623" />
+      <rect
+         ry="23.20623"
+         y="556.00647"
+         x="155.8806"
+         height="57.463043"
+         width="280.00174"
+         id="rect1091"
+         style="opacity:0.98000004;fill:url(#linearGradient1095);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.07694625;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         id="g1120"
+         transform="matrix(0.81499319,0,0,0.81499319,28.692951,80.398065)">
+        <text
+           transform="scale(0.95811586,1.0437151)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.01845169px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.20910168px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="186.03587"
+           y="608.50793"
+           id="text1114"><tspan
+             sodipodi:role="line"
+             id="tspan1112"
+             x="186.03587"
+             y="608.50793"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#000000;stroke-width:2.20910168px">Siguiente</tspan></text>
+        <text
+           id="text1118"
+           y="608.50793"
+           x="183.82669"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.01845169px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.20910168px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"
+           transform="scale(0.95811586,1.0437151)"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff;stroke-width:2.20910168px"
+             y="608.50793"
+             x="183.82669"
+             id="tspan1116"
+             sodipodi:role="line">Siguiente</tspan></text>
+      </g>
+      <path
+         style="opacity:0.98000004;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.06950284;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 420.49908,587.18801 c -0.005,-2.43996 -24.33485,-16.41887 -26.44536,-15.19444 -0.58506,0.33942 -1.00252,2.74525 -1.25657,6.06568 l -10.91489,-0.23295 c -3.83279,-0.0818 -6.98409,2.93804 -7.06588,6.77083 l -0.0865,4.05557 c -0.0818,3.8328 2.93777,6.98434 6.77058,7.06614 l 11.29942,0.24115 c 0.26478,3.56133 0.70397,6.18044 1.31782,6.53314 2.11562,1.21555 26.38655,-12.86515 26.38143,-15.30512 z"
+         id="path1122"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1124"
+         d="m 418.3205,586.38325 c -0.005,-2.43997 -24.33485,-16.41887 -26.44535,-15.19445 -0.58507,0.33942 -1.00252,2.74526 -1.25657,6.06569 l -10.91489,-0.23295 c -3.8328,-0.0818 -6.98408,2.93804 -7.06588,6.77083 l -0.0866,4.05557 c -0.0818,3.8328 2.93778,6.98434 6.77058,7.06614 l 11.29943,0.24114 c 0.26479,3.56134 0.70396,6.18044 1.31782,6.53314 2.11562,1.21556 26.38654,-12.86514 26.38142,-15.30511 z"
+         style="opacity:0.98000004;fill:#ffff00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.06950284;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="opacity:0.98000004;fill:#0088aa;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.07694625;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1188"
+         width="280.00174"
+         height="57.463043"
+         x="435.88232"
+         y="556.00647"
+         ry="23.20623" />
+      <rect
+         ry="23.20623"
+         y="556.00647"
+         x="435.88232"
+         height="57.463043"
+         width="280.00174"
+         id="rect1190"
+         style="opacity:0.98000004;fill:url(#linearGradient1194);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.07694625;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(0.81499319,0,0,0.81499319,-385.81887,-55.356856)"
+         id="g1270">
+        <g
+           id="g1244"
+           transform="translate(852.17098,166.57185)">
+          <text
+             transform="scale(0.95811586,1.0437151)"
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.01845169px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.20910168px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="186.03587"
+             y="608.50793"
+             id="text1238"><tspan
+               sodipodi:role="line"
+               id="tspan1236"
+               x="186.03587"
+               y="608.50793"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#000000;stroke-width:2.20910168px">Siguiente</tspan></text>
+          <text
+             id="text1242"
+             y="608.50793"
+             x="183.82669"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.01845169px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.98999999;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.20910168px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"
+             transform="scale(0.95811586,1.0437151)"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff;stroke-width:2.20910168px"
+               y="608.50793"
+               x="183.82669"
+               id="tspan1240"
+               sodipodi:role="line">Siguiente</tspan></text>
+        </g>
+        <path
+           style="opacity:0.98000004;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.08528027;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 1332.9187,788.40519 c -0.01,-2.99385 -29.859,-20.14602 -32.4486,-18.64365 -0.7178,0.41647 -1.2301,3.36844 -1.5418,7.44262 l -13.3926,-0.28583 c -4.7028,-0.10038 -8.5695,3.60499 -8.6699,8.30784 l -0.1062,4.9762 c -0.1003,4.70286 3.6047,8.56981 8.3076,8.67018 l 13.8644,0.29589 c 0.3249,4.36977 0.8638,7.58342 1.617,8.01619 2.5959,1.49149 32.3764,-15.78559 32.3701,-18.77944 z"
+           id="path1246"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path1248"
+           d="m 1330.2456,787.41774 c -0.01,-2.99385 -29.859,-20.14602 -32.4486,-18.64365 -0.7179,0.41647 -1.2301,3.36844 -1.5418,7.44262 l -13.3926,-0.28583 c -4.7029,-0.10038 -8.5695,3.60499 -8.6699,8.30784 l -0.1062,4.9762 c -0.1003,4.70286 3.6047,8.56981 8.3075,8.67018 l 13.8645,0.29589 c 0.3249,4.36977 0.8638,7.58342 1.617,8.01619 2.5958,1.49149 32.3764,-15.78559 32.3701,-18.77944 z"
+           style="opacity:0.98000004;fill:#f9f9f9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.08528027;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
+    </g>
   </g>
 </svg>
