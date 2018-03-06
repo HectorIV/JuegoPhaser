@@ -27,6 +27,9 @@
       game.load.spritesheet('sig', 'assets/Misc/siguiente.png', 280,57);
       game.load.image('win', 'assets/Misc/win.png');
       game.load.image('lose', 'assets/Misc/lose.png');
+      game.load.image('cuadrof', 'assets/Misc/cuadrof.png');
+      game.load.image('cuadrop', 'assets/Misc/cuadrop.png');
+      game.load.spritesheet('close', 'assets/Misc/close.png',78, 50);
 
       /*Se cargan el sonido*/
     }
@@ -40,35 +43,35 @@
     var error2;
     /*Preguntas del nivel de las nubes*/
     var preguntasNubes = [
-      [ 'Pregunta1'],
-      [ 'Pregunta2' ],
-      [ 'Pregunta3' ],
-      [ 'Pregunta4'],
-      [ 'Pregunta5'],
+      [ 'Construcción hecha de cualquier material para cercar un terreno, finca, \netc., en especial la que está hecha de estacas, tablas o tela metálica.'],
+      [ 'Indica de forma poco precisa un lugar alejado de la persona que habla y \nde la persona que escucha.' ],
+      [ 'Introduce una pregunta sobre la dirección hacia la que se dirige un \nmovimiento.' ],
+      [ 'Se utiliza para expresar el deseo de ver, para denotar curiosidad o \ninterés.'],
+      [ 'Que siente, piensa y actúa con conocimiento de lo que hace.'],
     ];
     /*Respuesta correcta*/
     var respuestaCN = [
-     [ 'Respuesta1'],
-     [ 'Respuesta2' ],
-     [ 'Respuesta3' ],
-     [ 'Respuesta4'],
-     [ 'Respuesta5'],
+     [ 'Valla'],
+     [ 'Allá' ],
+     [ 'Adónde' ],
+     [ 'A ver'],
+     [ 'Consciente'],
     ];
     /*Respuestas incorrectas*/
     var respuestaIN1 = [
-     [ 'Incorrecto1'],
-     [ 'Incorrecto2' ],
-     [ 'Incorrecto3' ],
-     [ 'Incorrecto4'],
-     [ 'Incorrecto5'],
+     [ 'Vaya'],
+     [ 'Haya' ],
+     [ 'A dónde' ],
+     [ 'Haber'],
+     [ 'Conciente'],
     ];
 
     var respuestaIN2 = [
-     [ 'Incorrecto1'],
-     [ 'Incorrecto2' ],
-     [ 'Incorrecto3' ],
-     [ 'Incorrecto4'],
-     [ 'Incorrecto5'],
+     [ 'Balla'],
+     [ 'Halla' ],
+     [ 'Adonde' ],
+     [ 'Haver'],
+     [ 'Consiente'],
     ];
     /*La variable que hace que todo se repita*/
     var conteo=0;
@@ -77,6 +80,7 @@
     var texto3;
     var Rbuenas=0;
     var clearS;
+    var numP=0;
 
 
 
@@ -109,17 +113,23 @@
       load.kill();
       menu.kill();
       button.kill();
-
+      numP++;
 
       /*Se crea la pantalla del juego donde play es el fondo*/
       game.add.sprite(0,0,'play');
       game.add.sprite(20,380,'cuadropregunta');
+      game.add.button(922, 0, 'close', reiniciar, this,1, 0, 2);
       /*Genero un numero aleatorio del 0 al 2*/
       ale=game.rnd.integerInRange(0, 2);
-      /*Lo muestro para hacer pruebas*/
-      game.add.text(16,16,'Caso: '+ale,{fontsize:'32px',fill:'#000'});
+
+      game.add.sprite(-118,5,'cuadrop');
+      game.add.text(16,16,'Pregunta: '+ numP+'/5',{fontsize:'32px',fill:'#ffffff'});
+
+      /*Lo muestro para hacer pruebas
+      game.add.text(16,80,'Caso: '+ale,{fontsize:'32px',fill:'#000'});*/
       /*Muestro la pregunta con un arreglo*/
-      game.add.text(40,410,'*'+preguntasNubes[conteo],{fontsize:'32px',fill:'#000'});
+      game.add.text(40,410,''+preguntasNubes[conteo],{fontsize:'32px',fill:'#ffffff'});
+
       /*Dependiendo del número se mostrara las opciones en diferentes formas*/
       switch (ale) {
         case 0:
@@ -128,15 +138,15 @@
         error1 = game.add.button(game.world.centerX - 105, 100, 'nube');
         error2 = game.add.button(705, 200, 'nube');
 
-        texto1 = game.add.text(120,240,''+respuestaCN[conteo],{fontsize:'32px',fill:'#000'});
-        texto2 = game.add.text(game.world.centerX - 85, 140,''+respuestaIN1[conteo],{fontsize:'32px',fill:'#000'});
-        texto3 = game.add.text(725,240,''+respuestaIN2[conteo],{fontsize:'32px',fill:'#000'});
+        texto1 = game.add.text(150,240,''+respuestaCN[conteo],{fontsize:'32px',fill:'#000'});
+        texto2 = game.add.text(game.world.centerX - 40, 140,''+respuestaIN1[conteo],{fontsize:'32px',fill:'#000'});
+        texto3 = game.add.text(760,240,''+respuestaIN2[conteo],{fontsize:'32px',fill:'#000'});
 
         error1.onInputUp.add(Error1N, this);
         error2.onInputUp.add(Error1N, this);
         acierto.onInputUp.add(CorrectoN, this);
 
-        game.add.text(16,50,'op1',{fontsize:'32px',fill:'#000'});
+        /*game.add.text(16,50,'op1',{fontsize:'32px',fill:'#000'});*/
           break;
 
        case 1:
@@ -144,15 +154,15 @@
        acierto = game.add.button(game.world.centerX - 105, 100, 'nube');
        error2 = game.add.button(705, 200, 'nube');
 
-       texto1 = game.add.text(120,240,''+respuestaIN1[conteo],{fontsize:'32px',fill:'#000'});
-       texto2 = game.add.text(game.world.centerX - 85, 140,''+respuestaCN[conteo],{fontsize:'32px',fill:'#000'});
-       texto3 = game.add.text(725,240,''+respuestaIN2[conteo],{fontsize:'32px',fill:'#000'});
+       texto1 = game.add.text(150,240,''+respuestaIN1[conteo],{fontsize:'32px',fill:'#000'});
+       texto2 = game.add.text(game.world.centerX - 40, 140,''+respuestaCN[conteo],{fontsize:'32px',fill:'#000'});
+       texto3 = game.add.text(760,240,''+respuestaIN2[conteo],{fontsize:'32px',fill:'#000'});
 
        error1.onInputUp.add(Error1N, this);
        error2.onInputUp.add(Error1N, this);
        acierto.onInputUp.add(CorrectoN, this);
 
-       game.add.text(16,50,'op2',{fontsize:'32px',fill:'#000'});
+       /*game.add.text(16,50,'op2',{fontsize:'32px',fill:'#000'});*/
          break;
 
        case 2:
@@ -160,15 +170,15 @@
        error1 = game.add.button(game.world.centerX - 105, 100, 'nube');
        acierto = game.add.button(705, 200, 'nube');
 
-       texto1 = game.add.text(120,240,''+respuestaIN2[conteo],{fontsize:'32px',fill:'#000'});
-       texto2 = game.add.text(game.world.centerX - 85, 140,''+respuestaIN1[conteo],{fontsize:'32px',fill:'#000'});
-       texto3 = game.add.text(725,240,''+respuestaCN[conteo],{fontsize:'32px',fill:'#000'});
+       texto1 = game.add.text(150,240,''+respuestaIN2[conteo],{fontsize:'32px',fill:'#000'});
+       texto2 = game.add.text(game.world.centerX - 40, 140,''+respuestaIN1[conteo],{fontsize:'32px',fill:'#000'});
+       texto3 = game.add.text(760,240,''+respuestaCN[conteo],{fontsize:'32px',fill:'#000'});
 
        error1.onInputUp.add(Error1N, this);
        error2.onInputUp.add(Error1N, this);
        acierto.onInputUp.add(CorrectoN, this);
 
-       game.add.text(16,50,'op3',{fontsize:'32px',fill:'#000'});
+       /*game.add.text(16,50,'op3',{fontsize:'32px',fill:'#000'});*/
          break;
       }
 
@@ -218,6 +228,8 @@
 
     function resultado()
     {
+      var errores=5;
+      errores=errores-Rbuenas;
       if(Rbuenas>=3){
         game.add.sprite(0,0,'win');
       }
@@ -225,10 +237,14 @@
         game.add.sprite(0,0,'lose');
       }
       game.add.button(game.world.centerX - 140, 340, 'sig', reiniciar, this, 1, 0, 2);
+      game.add.sprite(game.world.centerX - 208, 424,'cuadrof');
+      game.add.text(357,430,'Número de aciertos: '+Rbuenas,{fontsize:'32px',fill:'#ffffff'});
+      game.add.text(360,460,'Número de errores: '+errores,{fontsize:'32px',fill:'#ffffff'});
     }
 
     function limpieza(){
       clearS.kill();
+      play.kill();
     }
 
     function reiniciar(){
