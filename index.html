@@ -31,6 +31,7 @@
       game.load.image('cuadrop', 'assets/Misc/cuadrop.png');
       game.load.spritesheet('close', 'assets/Misc/close.png',78, 50);
       game.load.spritesheet('hvgames', 'assets/Misc/HVGAMES-logo.png');
+      game.load.spritesheet('github', 'assets/Misc/Octocat.png');
 
       /*Se cargan el sonido*/
       game.load.audio('Sgame', 'assets/music/Where_to_Walk.wav');
@@ -98,6 +99,7 @@
     var loseS;
     var gameS;
     var hvgames;
+    var github;
 
 
     function create(){
@@ -107,6 +109,8 @@
 
      hvgames = game.add.button(16,410,'hvgames');
      hvgames.onInputUp.add(HVGames, this);
+     github = game.add.button(896,410,'github');
+     github.onInputUp.add(gitH, this);
 
      menuS = game.add.audio('Smenu');
      menuS.loopFull(0.5);
@@ -132,6 +136,10 @@
 
     function HVGames(){
       window.open("https://www.facebook.com/HVGames15/", "_blank");
+    }
+
+    function gitH(){
+      window.open("https://github.com/HectorIV/JuegoPhaser/tree/master", "_blank");
     }
 
     function actionOnClick () {
