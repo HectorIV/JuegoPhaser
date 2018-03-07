@@ -30,8 +30,16 @@
       game.load.image('cuadrof', 'assets/Misc/cuadrof.png');
       game.load.image('cuadrop', 'assets/Misc/cuadrop.png');
       game.load.spritesheet('close', 'assets/Misc/close.png',78, 50);
+      game.load.spritesheet('hvgames', 'assets/Misc/HVGAMES-logo.png');
 
       /*Se cargan el sonido*/
+      game.load.audio('Sgame', 'assets/music/Where_to_Walk.wav');
+      game.load.audio('Splay', 'assets/music/coin_sound1.mp3');
+      game.load.audio('Sbien', 'assets/music/bien.wav');
+      game.load.audio('Smal', 'assets/music/mal.wav');
+      game.load.audio('Smenu', 'assets/music/menu.mp3');
+      game.load.audio('Swin', 'assets/music/win.mp3');
+      game.load.audio('Slose', 'assets/music/lose.mp3');
     }
 /*Variables globales*/
     var button;
@@ -82,12 +90,26 @@
     var clearS;
     var numP=0;
 
+    var menuS;
+    var playS;
+    var bienS;
+    var malS;
+    var winS;
+    var loseS;
+    var gameS;
+    var hvgames;
 
 
     function create(){
 
      load = game.add.image(0,0, 'loading');
      menu = game.add.sprite(0,0,'menu');
+
+     hvgames = game.add.button(16,410,'hvgames');
+     hvgames.onInputUp.add(HVGames, this);
+
+     menuS = game.add.audio('Smenu');
+     menuS.loopFull(0.5);
      /*Se crea el boton play y llama a la funcion actionOnClick que contiene el codigo del primer mundo*/
      button = game.add.button(game.world.centerX - 100, 400, 'playbt', actionOnClick, this, 1, 0, 2);
      button.onInputOver.add(over, this);
@@ -108,12 +130,24 @@
     console.log('button out');
     }
 
+    function HVGames(){
+      window.open("https://www.facebook.com/HVGames15/", "_blank");
+    }
+
     function actionOnClick () {
       /*Elimino la pantalla inicial*/
+
+      menuS.stop();
       load.kill();
       menu.kill();
       button.kill();
       numP++;
+      playS = game.add.audio('Splay');
+      playS.play();
+      if(conteo==0){
+      gameS = game.add.audio('Sgame');
+      gameS.play();
+      }
 
       /*Se crea la pantalla del juego donde play es el fondo*/
       game.add.sprite(0,0,'play');
@@ -139,7 +173,7 @@
         error2 = game.add.button(705, 200, 'nube');
 
         texto1 = game.add.text(150,240,''+respuestaCN[conteo],{fontsize:'32px',fill:'#000'});
-        texto2 = game.add.text(game.world.centerX - 40, 140,''+respuestaIN1[conteo],{fontsize:'32px',fill:'#000'});
+        texto2 = game.add.text(game.world.centerX - 60, 140,''+respuestaIN1[conteo],{fontsize:'32px',fill:'#000'});
         texto3 = game.add.text(760,240,''+respuestaIN2[conteo],{fontsize:'32px',fill:'#000'});
 
         error1.onInputUp.add(Error1N, this);
@@ -155,7 +189,7 @@
        error2 = game.add.button(705, 200, 'nube');
 
        texto1 = game.add.text(150,240,''+respuestaIN1[conteo],{fontsize:'32px',fill:'#000'});
-       texto2 = game.add.text(game.world.centerX - 40, 140,''+respuestaCN[conteo],{fontsize:'32px',fill:'#000'});
+       texto2 = game.add.text(game.world.centerX - 60, 140,''+respuestaCN[conteo],{fontsize:'32px',fill:'#000'});
        texto3 = game.add.text(760,240,''+respuestaIN2[conteo],{fontsize:'32px',fill:'#000'});
 
        error1.onInputUp.add(Error1N, this);
@@ -171,7 +205,7 @@
        acierto = game.add.button(705, 200, 'nube');
 
        texto1 = game.add.text(150,240,''+respuestaIN2[conteo],{fontsize:'32px',fill:'#000'});
-       texto2 = game.add.text(game.world.centerX - 40, 140,''+respuestaIN1[conteo],{fontsize:'32px',fill:'#000'});
+       texto2 = game.add.text(game.world.centerX - 60, 140,''+respuestaIN1[conteo],{fontsize:'32px',fill:'#000'});
        texto3 = game.add.text(760,240,''+respuestaCN[conteo],{fontsize:'32px',fill:'#000'});
 
        error1.onInputUp.add(Error1N, this);
@@ -193,6 +227,8 @@
       texto1.kill();
       texto2.kill();
       texto3.kill();
+      malS = game.add.audio('Smal');
+      malS.play();
       if(conteo<=4){
       game.add.sprite(game.world.centerX - 140, 150, 'mal');
       clearS = game.add.button(game.world.centerX - 140, 290, 'sig', actionOnClick, this, 1, 0, 2);
@@ -214,6 +250,8 @@
       texto1.kill();
       texto2.kill();
       texto3.kill();
+      bienS = game.add.audio('Sbien');
+      bienS.play();
       if(conteo<=4){
       game.add.sprite(game.world.centerX - 140, 150, 'bien');
       clearS = game.add.button(game.world.centerX - 140, 290, 'sig', actionOnClick, this, 1, 0, 2);
@@ -230,11 +268,16 @@
     {
       var errores=5;
       errores=errores-Rbuenas;
+      gameS.stop();
       if(Rbuenas>=3){
         game.add.sprite(0,0,'win');
+        winS = game.add.audio('Swin');
+        winS.play();
       }
       else{
         game.add.sprite(0,0,'lose');
+        loseS = game.add.audio('Slose');
+        loseS.play();
       }
       game.add.button(game.world.centerX - 140, 340, 'sig', reiniciar, this, 1, 0, 2);
       game.add.sprite(game.world.centerX - 208, 424,'cuadrof');
