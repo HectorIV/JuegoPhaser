@@ -13,6 +13,8 @@
    <script type="text/javascript">
   /*Tamaño del juego*/
    var game= new Phaser.Game(1000, 515, Phaser.AUTO, 'gameDiv',{preload:preload, create: create, update: update});
+
+
   /*Se cargan los archivos*/
     function preload(){
       /*Se cargan las imagenes*/
@@ -32,6 +34,7 @@
       game.load.spritesheet('close', 'assets/Misc/close.png',78, 50);
       game.load.spritesheet('hvgames', 'assets/Misc/HVGAMES-logo.png');
       game.load.spritesheet('github', 'assets/Misc/Octocat.png');
+      game.load.image('globo', 'assets/Misc/globo.png');
 
       /*Se cargan el sonido*/
       game.load.audio('Sgame', 'assets/music/Where_to_Walk.wav');
@@ -41,6 +44,7 @@
       game.load.audio('Smenu', 'assets/music/menu.mp3');
       game.load.audio('Swin', 'assets/music/win.mp3');
       game.load.audio('Slose', 'assets/music/lose.mp3');
+
     }
 /*Variables globales*/
     var button;
@@ -100,6 +104,9 @@
     var gameS;
     var hvgames;
     var github;
+
+    var globo;
+
 
 
     function create(){
@@ -281,6 +288,16 @@
         game.add.sprite(0,0,'win');
         winS = game.add.audio('Swin');
         winS.play();
+          for(var i=0; i<15; i++){
+
+            var xg = game.rnd.integerInRange(0, 1000);
+            var yg = game.rnd.integerInRange(515, 700 );
+            globo = game.add.sprite(xg,yg, 'globo');
+            game.physics.enable(globo, Phaser.Physics.ARCADE);
+            globo.body.velocity.y=-150;
+
+          }
+
       }
       else{
         game.add.sprite(0,0,'lose');
