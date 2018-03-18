@@ -17,6 +17,7 @@
 
   /*Se cargan los archivos*/
     function preload(){
+      game.stage.backgroundColor = '#182d3b';
       /*Se cargan las imagenes*/
       game.load.image('loading', 'assets/Misc/load.png');
       game.load.image('menu', 'assets/Misc/menu.png');
@@ -104,8 +105,6 @@
     var gameS;
     var hvgames;
     var github;
-
-    var globo;
 
 
 
@@ -288,14 +287,14 @@
         game.add.sprite(0,0,'win');
         winS = game.add.audio('Swin');
         winS.play();
-          for(var i=0; i<15; i++){
-
+          for(var i=0; i<10; i++){
+            var globo;
             var xg = game.rnd.integerInRange(0, 1000);
-            var yg = game.rnd.integerInRange(515, 700 );
-            globo = game.add.sprite(xg,yg, 'globo');
-            game.physics.enable(globo, Phaser.Physics.ARCADE);
-            globo.body.velocity.y=-150;
-
+            var yg = game.rnd.integerInRange(0, 600 );
+            game.add.sprite(xg,yg, 'globo');
+            for(var i=0; i<10; i++){
+              golo
+            }
           }
 
       }
