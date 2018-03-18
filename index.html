@@ -291,10 +291,9 @@
             var globo;
             var xg = game.rnd.integerInRange(0, 1000);
             var yg = game.rnd.integerInRange(0, 600 );
-            game.add.sprite(xg,yg, 'globo');
-            for(var i=0; i<10; i++){
-              golo
-            }
+            globo = game.add.sprite(xg,yg, 'globo');
+            game.physics.enable(globo, Phaser.Physics.ARCADE);
+            globo.body.velocity.y=-150;
           }
 
       }
