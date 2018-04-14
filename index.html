@@ -62,6 +62,11 @@
       [ 'Introduce una pregunta sobre la dirección hacia la que se dirige un \nmovimiento.' ],
       [ 'Se utiliza para expresar el deseo de ver, para denotar curiosidad o \ninterés.'],
       [ 'Que siente, piensa y actúa con conocimiento de lo que hace.'],
+      [ 'Se utiliza en frases interrogativas, ya sean directas o indirectas, \nentre interrogaciones o sin ellas.'],
+      [ 'Algo que es hermoso, agraciado o excelente.'],
+      [ 'Se denomina el patrimonio, la fortuna o las pertenencias de una \npersona o entidad.'],
+      [ 'Se refiere al objeto, normalmente cilíndrico, que empleamos para \nbeber.'],
+      [ 'Es el verbo ir conjugado en primera o tercera persona de singular \nde pretérito perfecto.'],
     ];
     /*Respuesta correcta*/
     var respuestaCN = [
@@ -70,6 +75,11 @@
      [ 'Adónde' ],
      [ 'A ver'],
      [ 'Consciente'],
+     [ 'Por qué'],
+     [ 'Bello'],
+     [ 'Bienes'],
+     [ 'Vaso'],
+     [ 'Iba'],
     ];
     /*Respuestas incorrectas*/
     var respuestaIN1 = [
@@ -78,6 +88,11 @@
      [ 'A dónde' ],
      [ 'Haber'],
      [ 'Conciente'],
+     [ 'Porqué'],
+     [ 'Beyo'],
+     [ 'Vienes'],
+     [ 'Baso'],
+     [ 'Iva'],
     ];
 
     var respuestaIN2 = [
@@ -86,6 +101,11 @@
      [ 'Adonde' ],
      [ 'Haver'],
      [ 'Consiente'],
+     [ 'Porque'],
+     [ 'Vello'],
+     [ 'Víenes'],
+     [ 'Bazo'],
+     [ 'Hiba'],
     ];
     /*La variable que hace que todo se repita*/
     var conteo=0;
@@ -170,8 +190,8 @@
       /*Genero un numero aleatorio del 0 al 2*/
       ale=game.rnd.integerInRange(0, 2);
 
-      game.add.sprite(-118,5,'cuadrop');
-      game.add.text(16,16,'Pregunta: '+ numP+'/5',{fontsize:'32px',fill:'#ffffff'});
+      game.add.sprite(-95,5,'cuadrop');
+      game.add.text(16,16,'Pregunta: '+ numP+'/10',{fontsize:'32px',fill:'#ffffff'});
 
       /*Lo muestro para hacer pruebas
       game.add.text(16,80,'Caso: '+ale,{fontsize:'32px',fill:'#000'});*/
@@ -243,7 +263,7 @@
       texto3.kill();
       malS = game.add.audio('Smal');
       malS.play();
-      if(conteo<=4){
+      if(conteo<=9){
       game.add.sprite(game.world.centerX - 140, 150, 'mal');
       clearS = game.add.button(game.world.centerX - 140, 290, 'sig', actionOnClick, this, 1, 0, 2);
       clearS.onInputUp.add(limpieza, this);
@@ -266,7 +286,7 @@
       texto3.kill();
       bienS = game.add.audio('Sbien');
       bienS.play();
-      if(conteo<=4){
+      if(conteo<=9){
       game.add.sprite(game.world.centerX - 140, 150, 'bien');
       clearS = game.add.button(game.world.centerX - 140, 290, 'sig', actionOnClick, this, 1, 0, 2);
       clearS.onInputUp.add(limpieza, this);
@@ -280,10 +300,10 @@
 
     function resultado()
     {
-      var errores=5;
+      var errores=10;
       errores=errores-Rbuenas;
       gameS.stop();
-      if(Rbuenas>=3){
+      if(Rbuenas>=7){
         game.add.sprite(0,0,'win');
         winS = game.add.audio('Swin');
         winS.play();

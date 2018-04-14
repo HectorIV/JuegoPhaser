@@ -46,18 +46,6 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient1199">
-      <stop
-         style="stop-color:#d45500;stop-opacity:1;"
-         offset="0"
-         id="stop1195" />
-      <stop
-         style="stop-color:#d45500;stop-opacity:0;"
-         offset="1"
-         id="stop1197" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
        id="linearGradient1157">
       <stop
          style="stop-color:#000080;stop-opacity:1;"
@@ -454,15 +442,6 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1199"
-       id="linearGradient1201"
-       x1="-645.99146"
-       y1="1296.6075"
-       x2="-651.91797"
-       y2="1247.2198"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient1264"
        id="linearGradient1266"
        x1="429.31265"
@@ -498,11 +477,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.30806126"
-     inkscape:cx="-2078.8483"
-     inkscape:cy="182.63683"
+     inkscape:zoom="0.11189428"
+     inkscape:cx="1922.5271"
+     inkscape:cy="-706.21348"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g1224"
      showgrid="false"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="true"
@@ -1999,31 +1978,11 @@
          inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\lose.png"
          inkscape:export-xdpi="25.4"
          inkscape:export-ydpi="25.4" />
-      <ellipse
-         ry="70.180527"
-         rx="177.29817"
-         cy="1237.9375"
-         cx="-654.94507"
-         id="ellipse1753"
-         style="opacity:0.98000004;fill:#ff6600;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:9.22591114;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\lose.png"
-         inkscape:export-xdpi="25.4"
-         inkscape:export-ydpi="25.4" />
-      <ellipse
-         inkscape:export-ydpi="25.4"
-         inkscape:export-xdpi="25.4"
-         inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\lose.png"
-         style="opacity:0.98000004;fill:url(#linearGradient1201);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:9.22591114;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="ellipse1833"
-         cx="-654.94507"
-         cy="1237.9375"
-         rx="177.29817"
-         ry="70.180527" />
       <g
          inkscape:export-ydpi="25.4"
          inkscape:export-xdpi="25.4"
          inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\lose.png"
-         transform="matrix(1.9918032,-0.78306235,0.78306235,1.9918032,-1739.8465,-1405.1665)"
+         transform="matrix(1.9918032,-0.78306235,0.78306235,1.9918032,-1777.9489,-1405.1665)"
          id="g1807">
         <circle
            r="32.541626"
@@ -2085,59 +2044,64 @@
          inkscape:export-ydpi="25.4"
          inkscape:export-xdpi="25.4"
          inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\lose.png"
-         id="g1831">
+         id="g1831"
+         transform="translate(-2.7522397e-5,4.9995832e-5)">
         <g
-           inkscape:export-ydpi="25.4"
-           inkscape:export-xdpi="25.4"
-           inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
-           transform="matrix(0.95319292,0,0,0.87000978,162.74269,548.83328)"
-           id="g1715"
-           style="fill:#000000">
+           id="g1141"
+           transform="translate(-106.43731,0.52916755)">
+          <g
+             style="fill:#000000"
+             id="g1715"
+             transform="matrix(0.95319292,0,0,0.87000978,162.74269,548.83328)"
+             inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+             inkscape:export-xdpi="25.4"
+             inkscape:export-ydpi="25.4">
+            <g
+               id="g1713"
+               transform="matrix(1.4168225,0,0,1.4932128,-1270.7804,-212.47164)"
+               style="opacity:0.98999999;fill:#000000"
+               inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+               inkscape:export-xdpi="25.4"
+               inkscape:export-ydpi="25.4">
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.79865265px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.94994354px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                 x="207.34676"
+                 y="698.07458"
+                 id="text1711"><tspan
+                   sodipodi:role="line"
+                   id="tspan1709"
+                   x="207.34676"
+                   y="698.07458"
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#000000;stroke-width:2.94994354px">You Lose!</tspan></text>
+            </g>
+          </g>
           <g
              inkscape:export-ydpi="25.4"
              inkscape:export-xdpi="25.4"
-             inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
-             style="opacity:0.98999999;fill:#000000"
-             transform="matrix(1.4168225,0,0,1.4932128,-1270.7804,-212.47164)"
-             id="g1713">
-            <text
-               id="text1711"
-               y="698.07458"
-               x="207.34676"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.79865265px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.94994354px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               xml:space="preserve"><tspan
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#000000;stroke-width:2.94994354px"
+             inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
+             transform="matrix(0.95319292,0,0,0.87000978,160.62601,547.77494)"
+             id="g1821"
+             style="fill:#ffffff">
+            <g
+               inkscape:export-ydpi="25.4"
+               inkscape:export-xdpi="25.4"
+               inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
+               style="opacity:0.98999999;fill:#ffffff"
+               transform="matrix(1.4168225,0,0,1.4932128,-1270.7804,-212.47164)"
+               id="g1819">
+              <text
+                 id="text1817"
                  y="698.07458"
                  x="207.34676"
-                 id="tspan1709"
-                 sodipodi:role="line">Lose</tspan></text>
-          </g>
-        </g>
-        <g
-           style="fill:#ffffff"
-           id="g1821"
-           transform="matrix(0.95319292,0,0,0.87000978,160.62601,547.77494)"
-           inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\win.png"
-           inkscape:export-xdpi="25.4"
-           inkscape:export-ydpi="25.4">
-          <g
-             id="g1819"
-             transform="matrix(1.4168225,0,0,1.4932128,-1270.7804,-212.47164)"
-             style="opacity:0.98999999;fill:#ffffff"
-             inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\Bien.png"
-             inkscape:export-xdpi="25.4"
-             inkscape:export-ydpi="25.4">
-            <text
-               xml:space="preserve"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.79865265px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.94994354px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-               x="207.34676"
-               y="698.07458"
-               id="text1817"><tspan
-                 sodipodi:role="line"
-                 id="tspan1815"
-                 x="207.34676"
-                 y="698.07458"
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff;stroke-width:2.94994354px">Lose</tspan></text>
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:70.79865265px;line-height:125%;font-family:'Determination Mono Web';-inkscape-font-specification:'Determination Mono Web';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.94994354px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                 xml:space="preserve"><tspan
+                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffffff;stroke-width:2.94994354px"
+                   y="698.07458"
+                   x="207.34676"
+                   id="tspan1815"
+                   sodipodi:role="line">You Lose!</tspan></text>
+            </g>
           </g>
         </g>
       </g>
