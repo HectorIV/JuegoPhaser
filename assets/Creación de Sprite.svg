@@ -464,7 +464,7 @@
        xlink:href="#linearGradient1285"
        id="linearGradient1385"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.27480777,0,0,1.0188679,1196.7362,-21.04862)"
+       gradientTransform="matrix(0.27480777,0,0,1.0188679,1380.868,-113.11452)"
        x1="498.8743"
        y1="738.48364"
        x2="498.8743"
@@ -477,11 +477,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.11189428"
-     inkscape:cx="1922.5271"
-     inkscape:cy="-706.21348"
+     inkscape:zoom="0.11495389"
+     inkscape:cx="-888.12933"
+     inkscape:cy="-671.28423"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1224"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="true"
@@ -2165,7 +2165,8 @@
        id="g1271"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\cuadrop.png"
        inkscape:export-xdpi="25.4"
-       inkscape:export-ydpi="25.4">
+       inkscape:export-ydpi="25.4"
+       transform="matrix(1.1796171,0,0,1,-47.1614,0)">
       <rect
          ry="10.243902"
          y="694.87781"
@@ -2187,7 +2188,8 @@
        id="g1426"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\close.png"
        inkscape:export-xdpi="25.4"
-       inkscape:export-ydpi="25.4">
+       inkscape:export-ydpi="25.4"
+       transform="translate(184.1318,-92.065901)">
       <rect
          style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.76886249;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="rect1273"
@@ -2207,7 +2209,7 @@
     </g>
     <g
        id="g1340"
-       transform="translate(109.64461,4.1697565)"
+       transform="translate(293.77641,-87.896144)"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\close.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4">
@@ -2240,7 +2242,8 @@
        id="g1406"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\close.png"
        inkscape:export-xdpi="25.4"
-       inkscape:export-ydpi="25.4">
+       inkscape:export-ydpi="25.4"
+       transform="translate(184.1318,-92.065901)">
       <rect
          ry="0"
          y="686.94012"
@@ -2283,8 +2286,8 @@
     </g>
     <rect
        ry="0"
-       y="686.94012"
-       x="1291.2546"
+       y="594.87421"
+       x="1475.3865"
        height="50.288239"
        width="77.541626"
        id="rect1371"
@@ -2297,15 +2300,15 @@
        id="rect1373"
        width="77.541626"
        height="50.288239"
-       x="1291.2546"
-       y="686.94012"
+       x="1475.3865"
+       y="594.87421"
        ry="0"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\close.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4" />
     <g
        id="g1383"
-       transform="translate(264.72817,4.1697565)"
+       transform="translate(448.85997,-87.896144)"
        inkscape:export-filename="C:\xampp\htdocs\JuegoCurso\JuegoPhaser\assets\Misc\close.png"
        inkscape:export-xdpi="25.4"
        inkscape:export-ydpi="25.4">
